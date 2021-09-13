@@ -48,7 +48,7 @@
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
-            <table class="table text-center">
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Parameter</th>
@@ -59,55 +59,55 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Moisture Content</th>
+                        <td scope="row">Moisture Content</td>
                         <td>%</td>
                         <td>2.72</td>
                         <td>ASTM D 1762-84 (REAPPROVED 203)</td>
                     </tr>
                     <tr>
-                        <th scope="row">Ash Content</th>
+                        <td scope="row">Ash Content</td>
                         <td>%</td>
                         <td>5.58</td>
                         <td>ASTM D 1762-84 (REAPPROVED 203)</td>
                     </tr>
                     <tr>
-                        <th scope="row">Volatile Matter</th>
+                        <td scope="row">Volatile Matter</td>
                         <td>%</td>
                         <td>8.42</td>
                         <td>ASTM D 1762-84 (REAPPROVED 203)</td>
                     </tr>
                     <tr>
-                        <th scope="row">Fixed Carbon</th>
+                        <td scope="row">Fixed Carbon</td>
                         <td>%</td>
                         <td>83.28</td>
                         <td>By Calculation</td>
                     </tr>
                     <tr>
-                        <th scope="row">Sulfur</th>
+                        <td scope="row">Sulfur</td>
                         <td>%</td>
                         <td>0.08</td>
                         <td>ASTM D 4239-14</td>
                     </tr>
                     <tr>
-                        <th scope="row">Carbon</th>
+                        <td scope="row">Carbon</td>
                         <td>%</td>
                         <td>83.20</td>
                         <td>ASTM D 5373-08</td>
                     </tr>
                     <tr>
-                        <th scope="row">Hydrogen</th>
+                        <td scope="row">Hydrogen</td>
                         <td>%</td>
                         <td>1.63</td>
                         <td>ASTM D 5373-08</td>
                     </tr>
                     <tr>
-                        <th scope="row">Nitrogen</th>
+                        <td scope="row">Nitrogen</td>
                         <td>%</td>
                         <td>0.88</td>
                         <td>ASTM D 5373-08</td>
                     </tr>
                     <tr>
-                        <th scope="row">Oxigen</th>
+                        <td scope="row">Oxigen</td>
                         <td>%</td>
                         <td>5.91</td>
                         <td>ASTM D 3176-15</td>
