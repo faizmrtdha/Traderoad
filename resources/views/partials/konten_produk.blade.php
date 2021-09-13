@@ -52,7 +52,7 @@
                 <thead>
                     <tr>
                         <th scope="col">Parameter</th>
-                        <th scope="col">Unit</th>
+                        <th scope="col">Uni</th>
                         <th scope="col">Results</th>
                         <th scope="col">Method</th>
                     </tr>
