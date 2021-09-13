@@ -5,7 +5,7 @@
     </section>
     <div class="row">
         <div class="col">
-            <img src="img/jdr.png" width="250px" class="" alt="" />
+            <img src="/img/jdr.png" width="250px" class="" alt="" />
             <h4>PT. Jajar Dwi Raya</h4>
             <span>We also continue to update the information about the company
                 through social media, for the latest information you can follow
