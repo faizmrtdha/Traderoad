@@ -59,7 +59,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row">Moistureg</td>
+                        <td scope="row">Moisture Content</td>
                         <td>%</td>
                         <td>2.72</td>
                         <td>ASTM D 1762-84 (REAPPROVED 203)</td>
