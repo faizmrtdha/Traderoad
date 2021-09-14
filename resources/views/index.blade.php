@@ -1,2 +1,2 @@
-@dd($d)
+{{-- @dd($d) --}}
 @extends('layouts.main')
