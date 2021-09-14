@@ -5,16 +5,16 @@
               --swiper-pagination-color: #fff;
             " class="swiper mySwiper2">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/1.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/2.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/3.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/4.jpg" />
                 </div>
             </div>
@@ -23,16 +23,16 @@
         </div>
         <div thumbsSlider="" class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/1.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/2.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/3.jpg" />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="product">
                     <img src="/img/product/4.jpg" />
                 </div>
             </div>

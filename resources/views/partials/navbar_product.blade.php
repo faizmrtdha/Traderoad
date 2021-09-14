@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img class="img-fluid" src="/img/jdrlogo.png" alt="logo" width="40px" height="40px" />
             <div class="vr"></div>
             <span class="mb-0">Cocha</span>
