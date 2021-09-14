@@ -1,3 +1,4 @@
+{{-- @dd($d) --}}
 @extends('layouts.main')
 @section('slider')
 <h2 class="text-center title-product">Our Product</h2>

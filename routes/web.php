@@ -14,45 +14,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', [productController::class,'index'] );
 
-Route::get('/', function () {
-
-    return view('index', [
-        "title" => "Home"
-    ]);
-});
-Route::get('product/coconut-shell-charcoal', function () {
-    return view('product-1', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/coconut-fiber', function () {
-    return view('product-2', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/coconut-shell-charcoal-briquettes', function () {
-    return view('product-3', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/cocopeat', function () {
-    return view('product-4', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/crude-coconut-oil', function () {
-    return view('product-5', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/virgin-coconut-oil', function () {
-    return view('product-6', [
-        "title" => "Product"
-    ]);
-});
-Route::get('product/rbd-coconut-oil', function () {
-    return view('product-7', [
-        "title" => "Product"
-    ]);
-});
+Route::get('/product/{slug}',[productController::class,'show']);

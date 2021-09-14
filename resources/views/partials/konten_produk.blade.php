@@ -39,12 +39,11 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            {{ $product['judul'] }}
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            {{ $product['desc'] }}
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +114,5 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>

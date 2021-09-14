@@ -14,7 +14,6 @@
     <link href="css/all.min.css" rel="stylesheet" type="text/css" />
 
     <title>Cocha | {{ $title }}</title>
-
 </head>
 
 <body>
