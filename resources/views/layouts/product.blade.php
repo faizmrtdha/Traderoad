@@ -8,7 +8,7 @@
     <link href="/css/product.css" rel="stylesheet" />
 
     <!-- Swiper JS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/swiper.css" />
     <!-- Bootstrap CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -20,23 +20,23 @@
 </head>
 
 <body>
-    <div class="navigasi">
+    <div class="navigasi-product">
         @include('partials.navbar_product')
     </div>
 
-    <div class="napigasi my-5">
+    <div class="bc my-5">
         <div class="container">
             <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Product</li>
                 </ol>
             </nav>
         </div>
     </div>
 
-    <div class="container">
-        @include('partials.konten_produk')
+    <div class="container" id="product">
+        @yield('konten')
     </div>
 
     <div class="footer" id="contact">

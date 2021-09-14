@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -40,10 +43,13 @@
     </div>
     <div class="details d-md-flex flex-column w-100">
         <h1 class="mb-1">
-            {{ $product['judul'] }}
+            Cocopeat
         </h1>
         <p class="my-3">
-            {{ $product['desc'] }}
+            sabut dikenal karena hormon rooting alami dan sifat anti jamurnya yang sangat efektif untuk berbagai
+            kebutuhan
+            penanaman.cocopeat yang kami peroleh melalui proses r&d yang sangat ketat sejak proses penyaringan,
+            pencucian,hingga pengeringan.kami juga menyediakan pengemasan berbentuk block sbg media tanam yang ideal.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -116,3 +122,5 @@
         </div>
     </div>
 </div>
+
+@endsection

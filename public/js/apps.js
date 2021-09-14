@@ -44,15 +44,4 @@ $(document).ready(function () {
             $(".fixed-top").css("background", "rgba(55, 55, 55, 0.85)");
         }
     });
-    $('.tujuan').on('click', function(e){
-        var href = $(this).attr('href');
-        var elementHref = $(href);
-        // console.log(elementHref.offset().top);
-
-        $('body').animate({
-            scrollTop: elementHref.offset().top
-        });
-
-        e.preventDefault();
-    })
 });

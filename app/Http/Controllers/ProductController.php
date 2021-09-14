@@ -29,5 +29,4 @@ class ProductController extends Controller
             "product" => product::find($slug)
         ]);
     }
-
 }

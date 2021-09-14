@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/css/style.css" rel="stylesheet" />
     <!-- Swiper JS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/swiper.css" />
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- font awesome -->
     <link href="css/all.min.css" rel="stylesheet" type="text/css" />
 
-
-    <title>Cocha | {{ $title }} </title>
+    <title>Cocha | {{ $title }}</title>
 </head>
 
 <body>
@@ -34,7 +33,7 @@
     </div>
 
     <div class="slider" id="product">
-        @include('partials.slider')
+        @yield('slider')
     </div>
 
     <div class="team" id="team">

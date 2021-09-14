@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -40,10 +43,13 @@
     </div>
     <div class="details d-md-flex flex-column w-100">
         <h1 class="mb-1">
-            {{ $product['judul'] }}
+            Coconut Shell Charcoal
         </h1>
         <p class="my-3">
-            {{ $product['desc'] }}
+            Arang berbahan dasar tempurung kelapa yang dibakar, arang ini menggunakan kelapa yang sudah tua dan
+            mempunyai tekstur lebih padat, kandungan air sedikit, serta mempunyai nilai jual yang tinggi maka arang
+            batok
+            kelapa ini sangat dicari dan dibutuhkan sbg bahan dasar dalam industri arang briket.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -116,3 +122,5 @@
         </div>
     </div>
 </div>
+
+@endsection

@@ -1,5 +1,5 @@
-<h2 class="text-center my-5">Our Product</h2>
-<div class="swiper mySwiper">
+<h2 class="text-center title-product">Our Product</h2>
+<div class="swiper mySwiper" id="swiper">
     <div class="swiper-wrapper">
         @foreach ($url as $u)
         <div class="swiper-slide">
