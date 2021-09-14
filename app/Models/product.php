@@ -21,6 +21,7 @@ class product
     public static function all()
     {
         return collect(self::$CCO);
+        // jhdsjf
     }
     // public static function find($slug)
     // {
