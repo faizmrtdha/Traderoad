@@ -59,63 +59,40 @@
                         <th scope="col">Parameter</th>
                         <th scope="col">Unit</th>
                         <th scope="col">Results</th>
-                        <th scope="col">Method</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row">Moisture Content</td>
+                        <td scope="row">Moisture & Impurities</td>
                         <td>%</td>
-                        <td>2.72</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
+                        <td>Max 0.1</td>
                     </tr>
                     <tr>
-                        <td scope="row">Ash Content</td>
+                        <td scope="row">Free Fatty Acid</td>
                         <td>%</td>
-                        <td>5.58</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
+                        <td>Max 0.1</td>
                     </tr>
                     <tr>
-                        <td scope="row">Volatile Matter</td>
-                        <td>%</td>
-                        <td>8.42</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
+                        <td scope="row" colspan="2">Color</td>
+                        <td>Max 1R</td>
                     </tr>
                     <tr>
-                        <td scope="row">Fixed Carbon</td>
-                        <td>%</td>
-                        <td>83.28</td>
-                        <td>By Calculation</td>
+                        <td scope="row">Iodine Value</td>
+                        <td>Wijs</td>
+                        <td>7.5-10.5</td>
                     </tr>
                     <tr>
-                        <td scope="row">Sulfur</td>
-                        <td>%</td>
-                        <td>0.08</td>
-                        <td>ASTM D 4239-14</td>
+                        <td scope="row">Saponification Value</td>
+                        <td>mg KOH/g oil sample</td>
+                        <td>250-264</td>
                     </tr>
                     <tr>
-                        <td scope="row">Carbon</td>
-                        <td>%</td>
-                        <td>83.20</td>
-                        <td>ASTM D 5373-08</td>
+                        <td scope="row" colspan="2">Acid</td>
+                        <td>0.56</td>
                     </tr>
                     <tr>
-                        <td scope="row">Hydrogen</td>
-                        <td>%</td>
-                        <td>1.63</td>
-                        <td>ASTM D 5373-08</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Nitrogen</td>
-                        <td>%</td>
-                        <td>0.88</td>
-                        <td>ASTM D 5373-08</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Oxigen</td>
-                        <td>%</td>
-                        <td>5.91</td>
-                        <td>ASTM D 3176-15</td>
+                        <td scope="row" colspan="2">Odor</td>
+                        <td>Odorless</td>
                     </tr>
                 </tbody>
             </table>
