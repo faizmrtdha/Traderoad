@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -39,12 +42,14 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            Virgin Coconut Oil
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            Minyak yang dibuat dari kelapa segar yang diolah melalui proses pemanasan tanpa bahan kimia untuk diambil
+            minyaknya,memiliki kandungan esensial asam laurat membuat vco ini memiliki sifat antibiotik,anti bakterim
+            dan jamur yang sangat baik untuk kesehatan.penggunaan optimal minyak ini dikembangkan menjadi produk
+            pangan,farmasi,maupun kosmetik.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +120,7 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>
+
+@endsection

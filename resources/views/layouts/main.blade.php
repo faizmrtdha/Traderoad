@@ -13,7 +13,7 @@
     <!-- font awesome -->
     <link href="css/all.min.css" rel="stylesheet" type="text/css" />
 
-    <title>Cocha</title>
+    <title>Cocha | {{ $title }}</title>
 
 </head>
 
@@ -34,7 +34,7 @@
     </div>
 
     <div class="slider" id="product">
-        @include('partials.slider')
+        @yield('slider')
     </div>
 
     <div class="team" id="team">

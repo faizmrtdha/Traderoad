@@ -2,7 +2,7 @@
 <div class="swiper mySwiper" id="swiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide" id="swiper">
-            <a href="/product.html">
+            <a href="/product/">
                 <span>See Details</span>
             </a>
             <img src="img/copra.png" class="img-fluid rounded shadow" alt="tentang" />

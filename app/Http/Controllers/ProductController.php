@@ -14,15 +14,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('product', [
-            "title" => "CCO",
-            "judul" => product::all()
-        ]);
     }
 
     public function show($slug)
     {
-
     }
-
 }

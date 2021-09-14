@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -39,12 +42,14 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            RBD Coconut Oil
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            Coconut oil is processed with a given compound to purify, clarify and eliminate the less savory aroma that
+            this product is quite durable and has many benefits. This product contains triglyceride fatty acids, has a
+            bland taste, and is also odorless so that it can be used as a mixture of raw materials for making soap,
+            cosmetics, and processed foods on a food industry scale.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +120,7 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>
+
+@endsection

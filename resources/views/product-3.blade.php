@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -39,12 +42,15 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            Coconut Shell Charcoal Briquettes
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            Arang berbentuk compact yang terbuat dari batok kelapa granular yang dihaluskan dan dicetak menggunakan
+            bahan
+            pengikat alami yang dapat bertahan lebih lama dari arang biasa ketika dibakar.Sering digunakan untuk
+            keperluan
+            rumah tangga,industri makanan,industri metalurgi dan barbeque.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +121,7 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>
+
+@endsection

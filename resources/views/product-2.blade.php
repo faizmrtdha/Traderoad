@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -39,12 +42,13 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            Coconut Fiber
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            Sabut kelapa adalah serat alami yang di ekstrasksi dari cangkang kelapa bagian dalam dan bagian luar lapisan
+            kelapa,biasa digunakan sbg bahan dalam pembuatan produk kerajinan seperti keset
+            lantai,kasur,sikat,karung,dan tali.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +119,7 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>
+
+@endsection

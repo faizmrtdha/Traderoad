@@ -1,3 +1,6 @@
+@extends('layouts.product')
+
+@section('konten')
 <div class="isi d-md-flex flex-row justify-content-between mb-5">
     <div class="thumbnail d-md-flex flex-wrap">
         <div style="
@@ -39,12 +42,13 @@
         </div>
     </div>
     <div class="details d-md-flex flex-column w-100">
-        @foreach ($konten as $k)
         <h1 class="mb-1">
-            {{ $k['judul'] }}
+            Crude Coconut Oil
         </h1>
         <p class="my-3">
-            {{ $j['desc'] }}
+            produk minyak nabati yang diekstraksi tanpa melalui proses filtrasi dari inti kelapa dengan kandungan lemak
+            jenuh yang tinggi dan lambat teroksidasi dengan demikian minyak ini tahan terhadap tengik dan bebas dari
+            pencampuran minyak atau benda asing lainnya.
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
@@ -115,6 +119,7 @@
                 </tbody>
             </table>
         </div>
-        @endforeach
     </div>
 </div>
+
+@endsection

@@ -5,7 +5,7 @@
             Berdiri sebagai perusahaan international trading dengan melakukan
             banyak kegiatan ekspor impor,kemudian kami melakukan inovasi
             bekerjasama dengan perkebunan kelapa di seluruh wilayah Indonesia
-            dan mengolah produk turunan kelapa yg bernilai untuk memenuhi
+            dan mengolah produk turunan kelapa yang bernilai untuk memenuhi
             kebutuhan individu dan bisnis.
         </p>
     </section>
