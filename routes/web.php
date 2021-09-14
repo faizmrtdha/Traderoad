@@ -15,22 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index', [
-        // "posts" => product::all()
-    ]);
-});
+Route::get('/', [productController::class,'index'] );
 
-// Route::get('/product', [ProductController::class, 'index']);
-// Route::get('/product', [ProductController::class, 'index']);
-
-Route::get('/product/{slug}', function ($slug) {
-    return view('product');
-});
-Route::get('/product', function () {
-    return view('product',[
-        "title"=> "produk",
-        "judul" => product::all()
-        // "judul" => product::find()
-    ]);
-});
+Route::get('/product/{slug}',[productController::class,'show']);
