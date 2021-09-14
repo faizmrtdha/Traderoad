@@ -206,7 +206,7 @@ html {
 }
 
 body {
-    background-color: aqua !important;
+    background-color: white !important;
 }
 
 .navbar-brand.p-0 {
@@ -263,8 +263,8 @@ p#tentang {
 
 .about {
     display: flex;
+    padding-top: 60px;
     align-items: flex-start;
-    /* padding: 100px; */
     justify-content: space-between;
 }
 
@@ -275,7 +275,6 @@ p#tentang {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* padding: 100px; */
     }
 }
 
@@ -334,12 +333,17 @@ body > div.about {
     text-align: center;
 }
 
+.title-product {
+    margin: 0 !important;
+    padding-bottom: 30px !important;
+}
+
 body > div.about > div > div > div.col.img-about > img {
     width: 100%;
 }
 
 .slider {
-    background-color: #f6f7f6;
+    background-color: white;
     padding-top: 60px;
     padding-bottom: 50px;
 }
