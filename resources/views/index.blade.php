@@ -1,6 +1,6 @@
 {{-- @dd($d) --}}
 @extends('layouts.main')
-@section('slider')
+{{-- @section('slider')
 <h2 class="text-center title-product">Our Product</h2>
 <div class="swiper mySwiper" id="swiper">
     <div class="swiper-wrapper">
@@ -52,4 +52,4 @@
     <div class="swiper-pagination"></div>
 </div>
 
-@endsection
+@endsection --}}
