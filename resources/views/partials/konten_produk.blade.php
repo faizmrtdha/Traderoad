@@ -3,7 +3,7 @@
         <div style="
               --swiper-navigation-color: #fff;
               --swiper-pagination-color: #fff;
-            " class="swiper mySwiper2">
+            " class="swiper mySwiper2" id="product">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" id="product">
                     <img src="/img/product/1.jpg" />
@@ -21,7 +21,7 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-        <div thumbsSlider="" class="swiper mySwiper">
+        <div thumbsSlider="" class="swiper myS" id="product">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" id="product">
                     <img src="/img/product/1.jpg" />
@@ -62,7 +62,7 @@
 
                     @foreach ($product['specs'] as $s)
                     {{-- @dd($param) --}}
-                        
+
                     <tr>
                         <td scope="row">{{ $s["param"] }}</td>
                         <td>{{ $s["unit"] }}</td>
