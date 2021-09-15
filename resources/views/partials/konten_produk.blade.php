@@ -38,6 +38,7 @@
             </div>
         </div>
     </div>
+    {{-- @dd($product) --}}
     <div class="details d-md-flex flex-column w-100">
         <h1 class="mb-1">
             {{ $product['judul'] }}
@@ -57,60 +58,18 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{-- @dd($product) --}}
+
+                    @foreach ($product['specs'] as $s)
+                    {{-- @dd($param) --}}
+                        
                     <tr>
-                        <td scope="row">Moisture Content</td>
-                        <td>%</td>
-                        <td>2.72</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
+                        <td scope="row">{{ $s["param"] }}</td>
+                        <td>{{ $s["unit"] }}</td>
+                        <td>{{ $s["result"] }}</td>
+                        <td>{{ $s["method"] }}</td>
                     </tr>
-                    <tr>
-                        <td scope="row">Ash Content</td>
-                        <td>%</td>
-                        <td>5.58</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Volatile Matter</td>
-                        <td>%</td>
-                        <td>8.42</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Fixed Carbon</td>
-                        <td>%</td>
-                        <td>83.28</td>
-                        <td>By Calculation</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Sulfur</td>
-                        <td>%</td>
-                        <td>0.08</td>
-                        <td>ASTM D 4239-14</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Carbon</td>
-                        <td>%</td>
-                        <td>83.20</td>
-                        <td>ASTM D 5373-08</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Hydrogen</td>
-                        <td>%</td>
-                        <td>1.63</td>
-                        <td>ASTM D 5373-08</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Nitrogen</td>
-                        <td>%</td>
-                        <td>0.88</td>
-                        <td>ASTM D 5373-08</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Oxigen</td>
-                        <td>%</td>
-                        <td>5.91</td>
-                        <td>ASTM D 3176-15</td>
-                    </tr>
+                    @endforeach
                 </tbody>
             </table>
         </div>
