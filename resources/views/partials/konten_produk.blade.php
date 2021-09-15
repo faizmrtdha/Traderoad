@@ -57,13 +57,18 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{-- @dd($product['params']) --}}
+                    @foreach ($product['params'] as $param)
+                    {{-- @dd($param) --}}
+                        
                     <tr>
-                        <td scope="row">Moisture Content</td>
-                        <td>%</td>
-                        <td>2.72</td>
-                        <td>ASTM D 1762-84 (REAPPROVED 203)</td>
+                        <td scope="row">{{ $param[0] }}</td>
+                        <td>{{ $param[1] }}</td>
+                        <td>{{ $param[2] }}</td>
+                        <td>{{ $param[3] }}</td>
                     </tr>
-                    <tr>
+                    @endforeach
+                    {{-- <tr>
                         <td scope="row">Ash Content</td>
                         <td>%</td>
                         <td>5.58</td>
@@ -110,7 +115,7 @@
                         <td>%</td>
                         <td>5.91</td>
                         <td>ASTM D 3176-15</td>
-                    </tr>
+                    </tr> --}}
                 </tbody>
             </table>
         </div>
