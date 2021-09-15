@@ -36,7 +36,7 @@
     </div>
 
     <div class="container" id="product">
-        @yield('konten')
+        @include('partials.konten_produk')
     </div>
 
     <div class="footer" id="contact">

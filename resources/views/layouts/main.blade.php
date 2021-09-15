@@ -33,7 +33,7 @@
     </div>
 
     <div class="slider" id="product">
-        @yield('slider')
+        @include('partials.slider')
     </div>
 
     <div class="team" id="team">

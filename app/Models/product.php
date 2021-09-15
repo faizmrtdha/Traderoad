@@ -76,13 +76,13 @@ class product
     {
         return collect(self::$CSC);
     }
-    
+
     public static function find($slug)
     {
         $product = static::all();
-        return $product->firstWhere('slug',$slug);
+        return $product->firstWhere('slug', $slug);
     }
-    
+
 
     public static function url()
     {
