@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 class product
 {
-    private static $CCO = [
+    private static $CSC = [
         [
             "judul" => "Coconut Shell",
             "slug" => "Coconut-Shell",
@@ -74,9 +74,8 @@ class product
 
     public static function all()
     {
-        return collect(self::$CCO);
+        return collect(self::$CSC);
     }
-    
     
     public static function find($slug)
     {
@@ -90,5 +89,4 @@ class product
         $product = static::all();
         return $product->get('slug');
     }
-    
 }
