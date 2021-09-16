@@ -6,9 +6,9 @@
             " class="swiper mySwiper2" id="product">
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
-                    <div class="swiper-slide" id="product">
-                        <img src="/img/product/{{$img}}" />
-                    </div>
+                <div class="swiper-slide" id="product">
+                    <img src="/img/product/{{$img}}" />
+                </div>
                 @endforeach
             </div>
             <div class="swiper-button-next"></div>
@@ -17,9 +17,9 @@
         <div thumbsSlider="" class="swiper myS" id="product">
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
-                    <div class="swiper-slide" id="product">
-                        <img src="/img/product/{{$img}}" />
-                    </div>
+                <div class="swiper-slide" id="product">
+                    <img src="/img/product/{{$img}}" />
+                </div>
                 @endforeach
             </div>
         </div>
@@ -37,19 +37,19 @@
                 <thead>
                     <tr>
                         @foreach ($product['header'] as $h)
-                            <th scope="col">{{ $h }}</th>
+                        <th scope="col">{{ $h }}</th>
                         @endforeach
                     </tr>
                 </thead>
-                <tbody> 
+                <tbody>
                     @foreach ($product['specs'] as $s )
                     <tr>
                         <td scope="row">{!! $s["param"] !!}</td>
                         <td>{{ $s["unit"] }}</td>
                         <td>{!! $s["result"] !!}</td>
                         @isset($s["method"])
-                            <td>{{ $s["method"] }}</td>
-                        @endisset                
+                        <td>{{ $s["method"] }}</td>
+                        @endisset
                     </tr>
                     @endforeach
                 </tbody>
