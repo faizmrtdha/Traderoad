@@ -3,7 +3,7 @@
         <div style="
               --swiper-navigation-color: #fff;
               --swiper-pagination-color: #fff;
-            " class="swiper mySwiper2">
+            " class="swiper mySwiper2" id="product">
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
                     <div class="swiper-slide" id="product">
@@ -14,7 +14,7 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-        <div thumbsSlider="" class="swiper mySwiper">
+        <div thumbsSlider="" class="swiper myS" id="product">
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
                     <div class="swiper-slide" id="product">

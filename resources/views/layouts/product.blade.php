@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/css/product.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
     <!-- Swiper JS -->
     <link rel="stylesheet" href="/css/swiper.css" />
@@ -28,7 +28,7 @@
         <div class="container">
             <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Product</li>
                 </ol>
             </nav>
@@ -53,7 +53,7 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="/js/swiper.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".myS", {
             loop: true,
             spaceBetween: 10,
             slidesPerView: 4,
