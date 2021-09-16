@@ -6,7 +6,7 @@
             <a href="/product/{{ $u["slug"] }}">
                 <span>See Details</span>
             </a>
-            <img src="img/copra.png" class="img-fluid rounded shadow" alt="tentang" />
+            <img src="img/{{ $u['thumbnail'] }}" class="img-fluid rounded shadow" alt="tentang" />
         </div>
         @endforeach
     </div>

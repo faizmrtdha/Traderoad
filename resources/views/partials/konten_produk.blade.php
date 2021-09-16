@@ -5,40 +5,25 @@
               --swiper-pagination-color: #fff;
             " class="swiper mySwiper2">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/1.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/2.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/3.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/4.jpg" />
-                </div>
+                @foreach ($product['img'] as $img)
+                    <div class="swiper-slide" id="product">
+                        <img src="/img/product/{{$img}}" />
+                    </div>
+                @endforeach
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
         <div thumbsSlider="" class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/1.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/2.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/3.jpg" />
-                </div>
-                <div class="swiper-slide" id="product">
-                    <img src="/img/product/4.jpg" />
-                </div>
+                @foreach ($product['img'] as $img)
+                    <div class="swiper-slide" id="product">
+                        <img src="/img/product/{{$img}}" />
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
-    {{-- @dd($product) --}}
     <div class="details d-md-flex flex-column w-100">
         <h1 class="mb-1">
             {{ $product['judul'] }}
@@ -51,23 +36,20 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Parameter</th>
-                        <th scope="col">Unit</th>
-                        <th scope="col">Results</th>
-                        <th scope="col">Method</th>
+                        @foreach ($product['header'] as $h)
+                            <th scope="col">{{ $h }}</th>
+                        @endforeach
                     </tr>
                 </thead>
-                <tbody>
-                    {{-- @dd($product) --}}
-
-                    @foreach ($product['specs'] as $s)
-                    {{-- @dd($param) --}}
-                        
+                <tbody> 
+                    @foreach ($product['specs'] as $s )
                     <tr>
-                        <td scope="row">{{ $s["param"] }}</td>
+                        <td scope="row">{!! $s["param"] !!}</td>
                         <td>{{ $s["unit"] }}</td>
-                        <td>{{ $s["result"] }}</td>
-                        <td>{{ $s["method"] }}</td>
+                        <td>{!! $s["result"] !!}</td>
+                        @isset($s["method"])
+                            <td>{{ $s["method"] }}</td>
+                        @endisset                
                     </tr>
                     @endforeach
                 </tbody>
