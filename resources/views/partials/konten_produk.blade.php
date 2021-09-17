@@ -5,9 +5,11 @@
               --swiper-pagination-color: #fff;
             " class="swiper mySwiper2" id="product">
             <div class="swiper-wrapper">
-                @foreach ($product['img'] as $img)
+                {{-- @dd($product->thumbnail) --}}
+                @foreach ( json_decode($product['img-product'])  as $img)
+                {{-- @dd($img) --}}
                     <div class="swiper-slide" id="product">
-                        <img src="/img/product/{{$img}}" />
+                        <img src="{{ asset('storage/'.$img) }}" />
                     </div>
                 @endforeach
             </div>
@@ -16,24 +18,25 @@
         </div>
         <div thumbsSlider="" class="swiper myS" id="product">
             <div class="swiper-wrapper">
-                @foreach ($product['img'] as $img)
+                @foreach (json_decode($product['img-product']) as $img)
                     <div class="swiper-slide" id="product">
-                        <img src="/img/product/{{$img}}" />
+                        <img src="{{ asset('storage/'.$img) }}" />
                     </div>
                 @endforeach
             </div>
         </div>
     </div>
+    {{-- @dd($product->title) --}}
     <div class="details d-md-flex flex-column w-100">
         <h1 class="mb-1">
-            {{ $product['judul'] }}
+            {{ $product->title }}
         </h1>
         <p class="my-3">
-            {{ $product['desc'] }}
+            {{ $product->desc }}
         </p>
         <h4>Specification</h4>
         <div class="table-responsive">
-            <table class="table">
+            {{-- <table class="table">
                 <thead>
                     <tr>
                         @foreach ($product['header'] as $h)
@@ -53,7 +56,7 @@
                     </tr>
                     @endforeach
                 </tbody>
-            </table>
+            </table> --}}
         </div>
     </div>
 </div>

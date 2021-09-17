@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\product;
+use App\Models\Product;
+use App\Models\prod;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -16,15 +17,15 @@ class ProductController extends Controller
     {
         return view('index', [
             "title" => "Home",
-            "url" => product::all()
+            "url" => Product::all()
         ]);
     }
 
-    public function show($slug)
+    public function show(Product $product)
     {
         return view('product', [
             "title" => "Produk",
-            "product" => product::find($slug)
+            "product" => $product
         ]);
     }
 

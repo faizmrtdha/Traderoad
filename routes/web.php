@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\ProductController;
-use App\Models\product;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DashboardProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +19,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ProductController::class, 'index']);
 
-Route::get('/product/{slug}', [ProductController::class, 'show']);
+Route::get('/admin', [LoginController::class, 'index'])->name('admin')->middleware('guest');
+Route::post('/admin', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+
+Route::resource('/dashboard/product', DashboardProductController::class)->middleware('auth');
+Route::get('/dashboard/product/checkSlug', [DashboardProductController::class,'checkSlug'])->middleware('auth');
+
+// Route::resource('/dashboard/product', DashboardProductController::class);
+
+
+// Route::get('/admin', function(){
+//     return view('login.index',[
+//         "title" => "Login"
+//     ]);
+// });
+
+Route::get('/product/{product:slug}', [ProductController::class, 'show']);
