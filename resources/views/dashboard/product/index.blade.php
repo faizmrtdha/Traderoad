@@ -6,7 +6,7 @@
 </div>
 
 @if (session()->has('success'))
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<div class="alert alert-success alert-dismissible fade show col-lg-8" role="alert">
   <strong>{{ session('success') }}</strong>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
@@ -34,7 +34,12 @@
             <td>
                 <a href="/dashboard/product/{{ $p->id }}" class="badge bg-info"><span data-feather="eye"></span></a>
                 <a href="" class="badge bg-warning"><span data-feather="edit"></span></a>
-                <a href="" class="badge bg-danger"><span data-feather="x-circle"></span></a>
+                <form action="/dashboard/product/{{ $p->id }}" method="post" class="d-inline">
+                  @method('delete')
+                  @csrf
+                  <button class="badge bg-danger border-0" onclick="return confirm('Are you sure delete?')"><span data-feather="x-circle"></span></button>
+                </form>
+                {{-- <a href="" class="badge bg-danger"></a> --}}
             </td>
           </tr>
           @endforeach
