@@ -2,15 +2,16 @@
 
 @section('container')
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Create new Product</h1>
+    <h1 class="h2">Edit Product</h1>
 </div>
 <div class="col-lg-8">
 
-    <form action="/dashboard/product" method="POST" enctype="multipart/form-data">
+    <form action="/dashboard/product/{{ $product->id }}" method="POST" enctype="multipart/form-data">
+        @method('put')
         @csrf
         <div class="mb-3">
             <label for="title" class="form-label ">Product Name</label>
-            <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" name="title" value="{{ old('title') }}">
+            <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" name="title" value="{{ old('title', $product->title) }}">
             @error('title')
                 <div class="invalid-feedback">
                     {{ $message }}
@@ -19,7 +20,7 @@
         </div>
         <div class="mb-3">
             <label for="slug" class="form-label ">Slug</label>
-            <input type="text" class="form-control @error('slug') is-invalid @enderror" id="slug" name="slug" value="{{ old('slug') }}">
+            <input type="text" class="form-control @error('slug') is-invalid @enderror" id="slug" name="slug" value="{{ old('slug', $product->slug) }}">
             @error('slug')
                 <div class="invalid-feedback">
                     {{ $message }}
@@ -43,10 +44,10 @@
             @error('desc')
                 <p class="text-danger"> {{ $message }} </p>
             @enderror
-            <input id="desc" type="hidden" name="desc" value="{{ old('desc') }}">
+            <input id="desc" type="hidden" name="desc" value="{{ old('desc', $product->desc) }}">
             <trix-editor input="desc"></trix-editor>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Update Product</button>
     </form>
 
 </div>
@@ -89,9 +90,5 @@
             imgPreviewProduct.src = oFREvent.target.result;
         }
     }
-
-
-
 </script>
-
 @endsection

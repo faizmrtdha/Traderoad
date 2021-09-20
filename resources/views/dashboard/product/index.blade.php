@@ -33,7 +33,7 @@
             <td>{{ $p->slug }}</td>
             <td>
                 <a href="/dashboard/product/{{ $p->id }}" class="badge bg-info"><span data-feather="eye"></span></a>
-                <a href="" class="badge bg-warning"><span data-feather="edit"></span></a>
+                <a href="/dashboard/product/{{ $p->id }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
                 <form action="/dashboard/product/{{ $p->id }}" method="post" class="d-inline">
                   @method('delete')
                   @csrf

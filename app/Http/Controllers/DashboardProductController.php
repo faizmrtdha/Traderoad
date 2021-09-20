@@ -104,9 +104,12 @@ class DashboardProductController extends Controller
      * @param  \App\Models\DashboardProduct  $dashboardProduct
      * @return \Illuminate\Http\Response
      */
-    public function edit(DashboardProduct $dashboardProduct)
+    public function edit(Product $product)
     {
         //
+        return view('dashboard.product.edit',[
+            'product' => $product
+        ]);
     }
 
     /**
@@ -116,9 +119,31 @@ class DashboardProductController extends Controller
      * @param  \App\Models\DashboardProduct  $dashboardProduct
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, DashboardProduct $dashboardProduct)
+    public function update(Request $request, Product $product)
     {
         //
+        $validatedData = $request->validate([
+            'title' => 'required|max:255',
+            'slug' => 'required|unique:products',
+            'desc' => 'required',
+            'thumbnail' => '',
+            'img-product' => ''
+        ]);
+        $validatedData['thumbnail'] = $request->file('thumbnail')->store('product-img/b');
+
+        $validatedData['img-product'] = array();
+        if ($files = $request->file('img-product')) {
+            foreach ($files as $file){
+                $validatedData['img-product'][] = $file->store('product-img/c');
+            }
+            $validatedData['img-product'] = json_encode($validatedData['img-product']);
+        }
+        
+
+        Product::where('id', $product->id)
+                ->update($validatedData);
+
+        return redirect('/dashboard/product')->with('success', 'Product has been updated');
     }
 
     /**
