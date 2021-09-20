@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/css/style.css" rel="stylesheet" />
-    <!-- Swiper JS -->
-    <link rel="stylesheet" href="/css/swiper.css" />
+    <!-- OWL JS -->
+    <link rel="stylesheet" href="css/swiper.css">
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- font awesome -->
@@ -49,10 +49,10 @@
         </div>
     </footer>
 
-    <!-- swiperJS -->
-    <script src="js/swiper.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
         integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <!-- swiperJS -->
+    <script src="js/swiper.js"></script>
     <script src="js/apps.js"></script>
     <script src="js/bootstrap.bundle.min.js">
     </script>

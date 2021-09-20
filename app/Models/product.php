@@ -12,7 +12,7 @@ class product
         [
             "judul" => "Coconut Shell Charcoal",
             "slug" => "Coconut-Shell-Charcoal",
-            "thumbnail" => "copra.png",
+            "thumbnail" => "cp1.jpg",
             "desc" => "Arang berbahan dasar tempurung kelapa yang dibakar, arang ini menggunakan kelapa yang sudah tua dan
             mempunyai tekstur lebih padat, kandungan air sedikit, serta mempunyai nilai jual yang tinggi maka arang
             batok
@@ -204,7 +204,7 @@ class product
         [
             "judul" => "Cocopeat",
             "slug" => "Cocopeat",
-            "thumbnail" => "copra.png",
+            "thumbnail" => "cp2.jpg",
             "desc" => "sabut dikenal karena hormon rooting alami dan sifat anti jamurnya yang sangat efektif untuk berbagai
             kebutuhan
             penanaman.cocopeat yang kami peroleh melalui proses r&d yang sangat ketat sejak proses penyaringan,
@@ -271,7 +271,7 @@ class product
         [
             "judul" => "Crude Coconut Oil",
             "slug" => "Crude Coconut-Oil",
-            "thumbnail" => "copra.png",
+            "thumbnail" => "cco.jpg",
             "desc" => "produk minyak nabati yang diekstraksi tanpa melalui proses filtrasi dari inti kelapa dengan kandungan lemak
             jenuh yang tinggi dan lambat teroksidasi dengan demikian minyak ini tahan terhadap tengik dan bebas dari
             pencampuran minyak atau benda asing lainnya.",
@@ -308,7 +308,7 @@ class product
         [
             "judul" => "Virgin Coconut Oil",
             "slug" => "Virgin-Coconut-Oil",
-            "thumbnail" => "copra.png",
+            "thumbnail" => "vco.jpg",
             "desc" => "Minyak yang dibuat dari kelapa segar yang diolah melalui proses pemanasan tanpa bahan kimia untuk diambil
             minyaknya,memiliki kandungan esensial asam laurat membuat vco ini memiliki sifat antibiotik,anti bakterim
             dan jamur yang sangat baik untuk kesehatan.penggunaan optimal minyak ini dikembangkan menjadi produk
@@ -396,7 +396,7 @@ class product
         [
             "judul" => "RBD Coconut Oil",
             "slug" => "RBD-Coconut-Oil",
-            "thumbnail" => "copra.png",
+            "thumbnail" => "rbd.jpg",
             "desc" => "Coconut oil is processed with a given compound to purify, clarify and eliminate the less savory aroma that
             this product is quite durable and has many benefits. This product contains triglyceride fatty acids, has a
             bland taste, and is also odorless so that it can be used as a mixture of raw materials for making soap,

@@ -9,5 +9,5 @@
             kebutuhan individu dan bisnis.
         </p>
     </section>
-    <img src="img/about.png" alt="asdw" class="img-fluid" />
+    <img src="img/braket.png" alt="asdw" class="img-fluid" />
 </div>

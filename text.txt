@@ -1,0 +1,12 @@
+<div class="owl-carousel owl-theme container">
+    @foreach ($url as $u)
+    <div class="item">
+        <div class="card" id="slider">
+            <img data-src="img/product/{{ $u["thumbnail"] }}" alt="tentang" class="card-img-top shadow owl-lazy">
+            <a href="/product/{{ $u["slug"] }}">
+                <span>See Details</span>
+            </a>
+        </div>
+    </div>
+    @endforeach
+</div>

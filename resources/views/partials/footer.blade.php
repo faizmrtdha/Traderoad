@@ -11,8 +11,8 @@
                 through social media, for the latest information you can follow
                 our social media.</span>
             <div class="social-media">
-                <a href="">
-                    <i id="linkedin" class="fab fa-linkedin-in me-3"></i>
+                <a href="" id="linkedin">
+                    <i class="fab fa-linkedin-in me-3"></i>
                 </a>
                 <a id="wa" href="https://wa.me/+62822222222" target="_blank" rel="noreferrer">
                     <i class="fab fa-whatsapp me-3"></i>

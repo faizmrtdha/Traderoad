@@ -1,10 +1,8 @@
 /* FONT */
 @font-face {
     font-family: "axiformablack_italic";
-    src: url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,10 +17,8 @@
 
 @font-face {
     font-family: "axiformabold_italic";
-    src: url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -37,10 +33,8 @@
 
 @font-face {
     font-family: "axiformabook_italic";
-    src: url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -55,30 +49,24 @@
 
 @font-face {
     font-family: "axiformaextrabold_italic";
-    src: url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "axiformaextrabold";
-    src: url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "axiformaheavy_italic";
-    src: url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -93,8 +81,7 @@
 
 @font-face {
     font-family: "axiformaitalic";
-    src: url("../fonts/kastelov_-_axiforma_italic-webfont.woff2")
-            format("woff2"),
+    src: url("../fonts/kastelov_-_axiforma_italic-webfont.woff2") format("woff2"),
         url("../fonts/kastelov_-_axiforma_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -102,10 +89,8 @@
 
 @font-face {
     font-family: "axiformalight_italic";
-    src: url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -120,18 +105,15 @@
 
 @font-face {
     font-family: "axiformamedium_italic";
-    src: url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "axiformamedium";
-    src: url("../fonts/kastelov_-_axiforma_medium-webfont.woff2")
-            format("woff2"),
+    src: url("../fonts/kastelov_-_axiforma_medium-webfont.woff2") format("woff2"),
         url("../fonts/kastelov_-_axiforma_medium-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -139,8 +121,7 @@
 
 @font-face {
     font-family: "axiformaregular";
-    src: url("../fonts/kastelov_-_axiforma_regular-webfont.woff2")
-            format("woff2"),
+    src: url("../fonts/kastelov_-_axiforma_regular-webfont.woff2") format("woff2"),
         url("../fonts/kastelov_-_axiforma_regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -148,18 +129,15 @@
 
 @font-face {
     font-family: "axiformasemibold_italic";
-    src: url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "axiformasemibold";
-    src: url("../fonts/kastelov_-_axiforma_semibold-webfont.woff2")
-            format("woff2"),
+    src: url("../fonts/kastelov_-_axiforma_semibold-webfont.woff2") format("woff2"),
         url("../fonts/kastelov_-_axiforma_semibold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
@@ -167,10 +145,8 @@
 
 @font-face {
     font-family: "axiformathin_italic";
-    src: url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff2")
-            format("woff2"),
-        url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff")
-            format("woff");
+    src: url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff2") format("woff2"),
+        url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -205,6 +181,15 @@ html {
     background-color: #555;
 }
 
+#a-logo,
+.nav-item>a:hover {
+    color: white;
+}
+
+a#swiper:hover {
+    color: white;
+}
+
 body {
     background-color: white !important;
 }
@@ -215,13 +200,13 @@ body {
     align-items: center;
 }
 
-.navbar-brand.p-0 > span {
+.navbar-brand.p-0>span {
     padding-left: 4px;
     font-family: axiformasemibold;
 }
 
 .navbar {
-    background-color: rgba(55, 55, 55, 0.85) !important;
+    background-color: rgba(55, 55, 55, 0.85);
 }
 
 /* .navbar-brand.p-0::after {
@@ -257,7 +242,7 @@ p#tentang {
     background-position: center center;
 }
 
-.gambar .container > button {
+.gambar .container>button {
     margin-top: 20px;
 }
 
@@ -286,17 +271,17 @@ p#tentang {
 
 /* end new */
 
-.about > section {
+.about>section {
     width: 450px;
 }
 
-body > div.about > div > div > div:nth-child(1) {
+body>div.about>div>div>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-body > div.about {
+body>div.about {
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -329,18 +314,33 @@ body > div.about {
     color: white;
 }
 
-.col > h3 {
+.col>h3 {
     text-align: center;
 }
 
-body > div.about > div > div > div.col.img-about > img {
+body>div.about>div>div>div.col.img-about>img {
     width: 100%;
 }
 
 .slider {
-    background-color: #f6f7f6;
+    background-color: #7e7e7e;
     padding-top: 60px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
+}
+
+.swiper#swiper {
+    height: 430px;
+    width: 100%;
+}
+
+.swiper-pagination>.swiper-pagination-bullet {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
+}
+
+.swiper-pagination>.swiper-pagination-bullet-active {
+    background-color: white;
 }
 
 .swiper .tombol {
@@ -349,7 +349,7 @@ body > div.about > div > div > div.col.img-about > img {
     align-items: center;
 }
 
-.swiper .tombol > button {
+.swiper .tombol>button {
     padding: 10px 20px;
     background-color: transparent;
     border-radius: 6px;
@@ -359,7 +359,7 @@ body > div.about > div > div > div.col.img-about > img {
     align-items: center;
 }
 
-.swiper .tombol > a {
+.swiper .tombol>a {
     padding: 10px 20px;
     text-decoration: none;
     background-color: transparent;
@@ -370,11 +370,11 @@ body > div.about > div > div > div.col.img-about > img {
     align-items: center;
 }
 
-.swiper .tombol > a > span {
+.swiper .tombol>a>span {
     color: black;
 }
 
-.swiper .tombol > a > i {
+.swiper .tombol>a>i {
     margin-left: 5px;
     color: green;
 }
@@ -390,16 +390,16 @@ body > div.about > div > div > div.col.img-about > img {
     margin-bottom: 30px;
 }
 
-.swiper#swiper {
+/* .swiper#swiper {
     width: 100%;
     height: 100%;
-    padding: 0px 111px 80px 111px !important;
-}
+    padding: 0px 111px 10px 111px !important;
+} */
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    /* background: #fff; */
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -416,14 +416,14 @@ body > div.about > div > div > div.col.img-about > img {
     align-items: center;
 }
 
-.swiper-slide img {
+.swiper-slide#swiper img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 380px;
     object-fit: cover;
 }
 
-.col > h2.Judul {
+.col>h2.Judul {
     font-size: 32px;
     margin-bottom: 45px;
     line-height: 48px;
@@ -431,7 +431,7 @@ body > div.about > div > div > div.col.img-about > img {
     font-family: axiformabold;
 }
 
-.col > h3.nama {
+.col>h3.nama {
     text-align: left;
     font-family: axiformathin;
     font-size: 24px;
@@ -439,7 +439,7 @@ body > div.about > div > div > div.col.img-about > img {
     font-weight: 700;
 }
 
-.col > p.kalimat {
+.col>p.kalimat {
     margin-top: 16px;
     text-align: justify;
     font-weight: 400;
@@ -447,7 +447,7 @@ body > div.about > div > div > div.col.img-about > img {
     line-height: 28px;
 }
 
-.team .container > h2 {
+.team .container>h2 {
     text-align: center;
 }
 
@@ -486,22 +486,22 @@ body > div.about > div > div > div.col.img-about > img {
     background-color: #373737;
 }
 
-body > div.footer > div > div > div:nth-child(1) {
+body>div.footer>div>div>div:nth-child(1) {
     padding-top: 20px;
 }
 
-body > div.footer > div > section {
+body>div.footer>div>section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-body > div.footer > div > div > div:nth-child(1) > h4 {
+body>div.footer>div>div>div:nth-child(1)>h4 {
     margin-top: 20px;
     margin-bottom: 18px;
 }
 
-.col > .social-media {
+.col>.social-media {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -517,18 +517,18 @@ footer {
     align-items: center;
 }
 
-.social-media > a {
+.social-media>a {
     text-decoration: none;
     font-size: 24px;
     color: white;
 }
 
-.social-media > a#linkedin:hover {
-    color: blue;
+.social-media>a#linkedin:hover {
+    color: blue !important;
 }
 
-.social-media > a#wa:hover {
-    color: green;
+.social-media>a#wa:hover {
+    color: green !important;
 }
 
 /* endfooter */
@@ -567,7 +567,7 @@ footer {
     padding-top: 60px;
 }
 
-body > div.keyfeature > div > div.styleflex {
+body>div.keyfeature>div>div.styleflex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -638,7 +638,7 @@ body > div.keyfeature > div > div.styleflex {
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
 
-    .about > section {
+    .about>section {
         width: 100% !important;
         margin-bottom: 20px;
     }
@@ -654,11 +654,11 @@ body > div.keyfeature > div > div.styleflex {
         /*-- New attribute --*/
     }
 
-    .navbar-nav > li {
+    .navbar-nav>li {
         float: none;
     }
 
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -682,20 +682,21 @@ body > div.keyfeature > div > div.styleflex {
     }
 }
 
-span > i.far,
-span > i.fas {
+span>i.far,
+span>i.fas {
     padding-bottom: 18px;
 }
 
 .upleft h3 {
     padding-bottom: 7px;
 }
-.social-media > a#wa > span > i {
+
+.social-media>a#wa>span>i {
     margin-left: 5px;
     color: green;
 }
 
-.swiper-slide > a {
+.swiper-slide>a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -706,12 +707,13 @@ span > i.fas {
     display: none;
 }
 
-.swiper-slide:hover > a {
+.swiper-slide:hover>a {
     display: inline;
 }
 
 h2.title-product {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 
 .swiper-slide#product img {
@@ -763,14 +765,17 @@ h2.title-product {
     max-width: 500px !important;
     height: 600px;
 }
+
 @media (min-width: 768px) {
-    #product > .isi {
+    #product>.isi {
         flex-wrap: wrap;
     }
+
     .thumbnail {
         margin-bottom: 20px;
         max-width: 550px !important;
     }
+
     .details {
         max-width: 550px !important;
     }
@@ -780,4 +785,125 @@ h2.title-product {
     .thumbnail {
         /* margin-right: 10px; */
     }
+}
+
+/* @media only screen and (max-width: 690px) {
+    .swiper#swiper {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .swiper#swiper {
+        width: 100%;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .swiper#swiper {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.swiper#swiper {
+    width: 100%;
+    height: 450px;
+} */
+.owl-carousel .owl-stage-outer {
+    padding-bottom: 20px;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.card-img-top {
+    height: 40vh;
+    object-fit: cover;
+}
+
+.owl-prev {
+    left: -40px;
+}
+
+.owl-next {
+    right: -40px;
+}
+
+.owl-prev .owl-next {
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span,
+.owl-next span {
+    font-size: 80px;
+    color: black;
+}
+
+.card#slider {
+    background-color: transparent !important;
+}
+
+.main-carousel {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.main-carousel .carousel-cell {
+    width: calc((100%-10px)/3);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* default full-width cells */
+.carousel-cell {
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+/* @media screen and (min-width: 768px) {
+    .carousel-cell {
+        width: 50%;
+    }
+} */
+
+/* fade in image when loaded */
+.carousel-cell-image {
+    transition: opacity 0.4s;
+    opacity: 0;
+    object-fit: cover;
+}
+
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+}
+
+.carousel-cell>a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+
+.carousel-cell:hover>a {
+    display: inline;
 }
