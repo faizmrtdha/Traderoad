@@ -76,135 +76,135 @@ class product
                 ]
             ]
         ],
-        // [
-        //     "judul" => "Coconut Fiber",
-        //     "slug" => "Coconut-Fiber",
-        //     "thumbnail" => "copra.png",
-        //     "desc" => "Sabut kelapa adalah serat alami yang di ekstrasksi dari cangkang kelapa bagian dalam dan bagian luar lapisan
-        //     kelapa,biasa digunakan sbg bahan dalam pembuatan produk kerajinan seperti keset
-        //     lantai,kasur,sikat,karung,dan tali.",
-        //     "img" => ["cf1.jpg", "cf2.jpg", "3.jpg", "4.jpg"],
-        //     "header" => ["Parameter", "Unit", "Result",],
-        //     "specs" => [
-        //         [
-        //             "param" => "Moisture Content",
-        //             "unit" => "%",
-        //             "result" => "2.72",
-        //         ],
-        //         [
-        //             "param" => "Ash Content",
-        //             "unit" => "%",
-        //             "result" => "5.58",
-        //         ],
-        //         [
-        //             "param" => "Volatile Matter",
-        //             "unit" => "%",
-        //             "result" => "8.42",
-        //         ],
-        //         [
-        //             "param" => "Fixed Carbon",
-        //             "unit" => "%",
-        //             "result" => "83.28",
-        //         ],
-        //         [
-        //             "param" => "Sulfur",
-        //             "unit" => "%",
-        //             "result" => "0.08",
-        //         ],
-        //         [
-        //             "param" => "Carbon",
-        //             "unit" => "%",
-        //             "result" => "83.20",
-        //         ],
-        //         [
-        //             "param" => "Hydrogen",
-        //             "unit" => "%",
-        //             "result" => "1.63",
-        //         ],
-        //         [
-        //             "param" => "Nitrogen",
-        //             "unit" => "%",
-        //             "result" => "0.88",
-        //         ],
-        //         [
-        //             "param" => "Oxigen",
-        //             "unit" => "%",
-        //             "result" => "5.91",
-        //         ]
-        //     ]
-        // ],
-        // [
-        //     "judul" => "Coconut Shell Charcoal Briquettes",
-        //     "slug" => "Coconut-Shell-Charcoal-Briquettes",
-        //     "thumbnail" => "copra.png",
-        //     "desc" => "Arang berbentuk compact yang terbuat dari batok kelapa granular yang dihaluskan dan dicetak menggunakan
-        //     bahan
-        //     pengikat alami yang dapat bertahan lebih lama dari arang biasa ketika dibakar.Sering digunakan untuk
-        //     keperluan
-        //     rumah tangga,industri makanan,industri metalurgi dan barbeque.",
-        //     "img" => ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
-        //     "header" => ["Parameter", "Unit", "Result,Method"],
-        //     "specs" => [
-        //         [
-        //             "param" => "Moisture Content",
-        //             "unit" => "%",
-        //             "result" => "2.72",
-        //             "method" => "ASTM D 1762-84 (REAPPROVED 203)"
-        //         ],
-        //         [
-        //             "param" => "Ash Content",
-        //             "unit" => "%",
-        //             "result" => "5.58",
-        //             "method" => "ASTM D 1762-84 (REAPPROVED 203)"
-        //         ],
-        //         [
-        //             "param" => "Volatile Matter",
-        //             "unit" => "%",
-        //             "result" => "8.42",
-        //             "method" => "ASTM D 1762-84 (REAPPROVED 203)"
-        //         ],
-        //         [
-        //             "param" => "Fixed Carbon",
-        //             "unit" => "%",
-        //             "result" => "83.28",
-        //             "method" => "By Calculation"
-        //         ],
-        //         [
-        //             "param" => "Sulfur",
-        //             "unit" => "%",
-        //             "result" => "0.08",
-        //             "method" => "ASTM D 4239-14"
-        //         ],
-        //         [
-        //             "param" => "Carbon",
-        //             "unit" => "%",
-        //             "result" => "83.20",
-        //             "method" => "ASTM D 5373-08"
-        //         ],
-        //         [
-        //             "param" => "Hydrogen",
-        //             "unit" => "%",
-        //             "result" => "1.63",
-        //             "method" => "ASTM D 5373-08"
-        //         ],
-        //         [
-        //             "param" => "Nitrogen",
-        //             "unit" => "%",
-        //             "result" => "0.88",
-        //             "method" => "ASTM D 5373-08"
-        //         ],
-        //         [
-        //             "param" => "Oxigen",
-        //             "unit" => "%",
-        //             "result" => "5.91",
-        //             "method" => "ASTM D 3176-15"
-        //         ]
-        //     ]
-        // ],
+        [
+            "judul" => "Coconut Fiber",
+            "slug" => "Coconut-Fiber",
+            "thumbnail" => "cf1.jpg",
+            "desc" => "Sabut kelapa adalah serat alami yang di ekstrasksi dari cangkang kelapa bagian dalam dan bagian luar lapisan
+            kelapa,biasa digunakan sbg bahan dalam pembuatan produk kerajinan seperti keset
+            lantai,kasur,sikat,karung,dan tali.",
+            "img" => ["cf1.jpg", "cf2.jpg"],
+            "header" => ["Parameter", "Unit", "Result",],
+            "specs" => [
+                [
+                    "param" => "Moisture Content",
+                    "unit" => "%",
+                    "result" => "2.72",
+                ],
+                [
+                    "param" => "Ash Content",
+                    "unit" => "%",
+                    "result" => "5.58",
+                ],
+                [
+                    "param" => "Volatile Matter",
+                    "unit" => "%",
+                    "result" => "8.42",
+                ],
+                [
+                    "param" => "Fixed Carbon",
+                    "unit" => "%",
+                    "result" => "83.28",
+                ],
+                [
+                    "param" => "Sulfur",
+                    "unit" => "%",
+                    "result" => "0.08",
+                ],
+                [
+                    "param" => "Carbon",
+                    "unit" => "%",
+                    "result" => "83.20",
+                ],
+                [
+                    "param" => "Hydrogen",
+                    "unit" => "%",
+                    "result" => "1.63",
+                ],
+                [
+                    "param" => "Nitrogen",
+                    "unit" => "%",
+                    "result" => "0.88",
+                ],
+                [
+                    "param" => "Oxigen",
+                    "unit" => "%",
+                    "result" => "5.91",
+                ]
+            ]
+        ],
+        [
+            "judul" => "Coconut Shell Charcoal Briquettes",
+            "slug" => "Coconut-Shell-Charcoal-Briquettes",
+            "thumbnail" => "copra.png",
+            "desc" => "Arang berbentuk compact yang terbuat dari batok kelapa granular yang dihaluskan dan dicetak menggunakan
+            bahan
+            pengikat alami yang dapat bertahan lebih lama dari arang biasa ketika dibakar.Sering digunakan untuk
+            keperluan
+            rumah tangga,industri makanan,industri metalurgi dan barbeque.",
+            "img" => ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+            "header" => ["Parameter", "Unit", "Result,Method"],
+            "specs" => [
+                [
+                    "param" => "Moisture Content",
+                    "unit" => "%",
+                    "result" => "2.72",
+                    "method" => "ASTM D 1762-84 (REAPPROVED 203)"
+                ],
+                [
+                    "param" => "Ash Content",
+                    "unit" => "%",
+                    "result" => "5.58",
+                    "method" => "ASTM D 1762-84 (REAPPROVED 203)"
+                ],
+                [
+                    "param" => "Volatile Matter",
+                    "unit" => "%",
+                    "result" => "8.42",
+                    "method" => "ASTM D 1762-84 (REAPPROVED 203)"
+                ],
+                [
+                    "param" => "Fixed Carbon",
+                    "unit" => "%",
+                    "result" => "83.28",
+                    "method" => "By Calculation"
+                ],
+                [
+                    "param" => "Sulfur",
+                    "unit" => "%",
+                    "result" => "0.08",
+                    "method" => "ASTM D 4239-14"
+                ],
+                [
+                    "param" => "Carbon",
+                    "unit" => "%",
+                    "result" => "83.20",
+                    "method" => "ASTM D 5373-08"
+                ],
+                [
+                    "param" => "Hydrogen",
+                    "unit" => "%",
+                    "result" => "1.63",
+                    "method" => "ASTM D 5373-08"
+                ],
+                [
+                    "param" => "Nitrogen",
+                    "unit" => "%",
+                    "result" => "0.88",
+                    "method" => "ASTM D 5373-08"
+                ],
+                [
+                    "param" => "Oxigen",
+                    "unit" => "%",
+                    "result" => "5.91",
+                    "method" => "ASTM D 3176-15"
+                ]
+            ]
+        ],
         [
             "judul" => "Cocopeat",
             "slug" => "Cocopeat",
-            "thumbnail" => "cp2.jpg",
+            "thumbnail" => "cp1.jpg",
             "desc" => "sabut dikenal karena hormon rooting alami dan sifat anti jamurnya yang sangat efektif untuk berbagai
             kebutuhan
             penanaman.cocopeat yang kami peroleh melalui proses r&d yang sangat ketat sejak proses penyaringan,
@@ -396,7 +396,7 @@ class product
         [
             "judul" => "RBD Coconut Oil",
             "slug" => "RBD-Coconut-Oil",
-            "thumbnail" => "rbd.jpg",
+            "thumbnail" => "co1.jpg",
             "desc" => "Coconut oil is processed with a given compound to purify, clarify and eliminate the less savory aroma that
             this product is quite durable and has many benefits. This product contains triglyceride fatty acids, has a
             bland taste, and is also odorless so that it can be used as a mixture of raw materials for making soap,
