@@ -36,6 +36,10 @@
         @include('partials.slider')
     </div>
 
+    <div class="warehouse" id="warehouse">
+        @include('partials.warehouse')
+    </div>
+
     <div class="team" id="team">
         @include('partials.team')
     </div>

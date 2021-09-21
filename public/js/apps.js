@@ -19,7 +19,7 @@ var swiper = new Swiper(".swiper", {
         992: {
             slidesPerView: 3,
             slidesPerGroup: 1,
-            spaceBetween: 10,
+            spaceBetween: 40,
         },
         768: {
             slidesPerView: 2,
@@ -51,7 +51,7 @@ $(document).ready(function () {
         const screenHeight = $(window).height();
         var scroll = $(window).scrollTop();
         if (scroll > screenHeight) {
-            $(".fixed-top").css("background", "#373737");
+            $(".fixed-top").css("background", "#383838");
         } else {
             $(".fixed-top").css("background", "rgba(55, 55, 55, 0.85)");
         }

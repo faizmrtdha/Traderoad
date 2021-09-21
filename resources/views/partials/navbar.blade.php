@@ -21,6 +21,9 @@
                     <a class="nav-link tujuan" href="#product">Product</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link tujuan" href="#warehouse">Warehouse</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link tujuan" href="#team">Team</a>
                 </li>
                 <li class="nav-item">

@@ -3,10 +3,10 @@
     <div class="swiper-wrapper">
         @foreach ($url as $u)
         <div class="swiper-slide" id="swiper">
-            <a href="/product/{{ $u["slug"] }}" id="swiper">
-                <span>See Details</span>
-            </a>
             <img src="img/product/{{ $u['thumbnail'] }}" class="img-fluid rounded slide-image" alt="tentang" />
+            <a href="/product/{{ $u["slug"] }}" id="swiper">
+                See Details
+            </a>
         </div>
         @endforeach
     </div>
