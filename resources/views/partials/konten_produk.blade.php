@@ -7,7 +7,7 @@
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
                 <div class="swiper-slide" id="product">
-                    <img src="/img/product/{{$img}}" />
+                    <img src="/img/product/{{$img}}" class="img-responsive" />
                 </div>
                 @endforeach
             </div>
@@ -18,7 +18,7 @@
             <div class="swiper-wrapper">
                 @foreach ($product['img'] as $img)
                 <div class="swiper-slide" id="product">
-                    <img src="/img/product/{{$img}}" />
+                    <img src="/img/product/{{$img}}" class="img-responsive" />
                 </div>
                 @endforeach
             </div>

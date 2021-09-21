@@ -24,7 +24,7 @@
         @include('partials.jumbotron')
     </div>
 
-    <div class="container" id="about">
+    <div class="about-us" id="about">
         @include('partials.about')
     </div>
 

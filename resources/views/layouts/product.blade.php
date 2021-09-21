@@ -28,7 +28,7 @@
         <div class="container">
             <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none text-dark">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Product</li>
                 </ol>
             </nav>
@@ -56,7 +56,7 @@
         var swiper = new Swiper(".myS", {
             loop: true,
             spaceBetween: 10,
-            slidesPerView: 4,
+            slidesPerView: 3,
             freeMode: true,
             watchSlidesProgress: true,
         });

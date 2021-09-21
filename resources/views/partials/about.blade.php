@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about container">
     <section>
         <h2>About Us</h2>
         <p id="tentang">
@@ -9,5 +9,11 @@
             kebutuhan individu dan bisnis.
         </p>
     </section>
-    <img src="img/braket.png" alt="asdw" class="img-fluid" />
+    <div class="img-about">
+        <div class="img-parent">
+            {{-- <img src="img/product/about-us-2.jpg" alt="asdw" class="img-fluid img-child img-child-1" id="about-2" /> --}}
+            <img src="img/product/about-us-1.jpg" alt="asdw" class="img-fluid img-child img-child-1" id="about-1" />
+            <img src="img/product/about-us-3.jpg" alt="asdw" class="img-fluid img-child img-child-2" id="about-3" />
+        </div>
+    </div>
 </div>

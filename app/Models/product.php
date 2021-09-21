@@ -209,7 +209,7 @@ class product
             kebutuhan
             penanaman.cocopeat yang kami peroleh melalui proses r&d yang sangat ketat sejak proses penyaringan,
             pencucian,hingga pengeringan.kami juga menyediakan pengemasan berbentuk block sbg media tanam yang ideal.",
-            "img" => ["cp1.jpg", "cp2.jpg", "cp3.jpg", "4.jpg"],
+            "img" => ["cp1.jpg", "cp2.jpg", "cp3.jpg"],
             "header" => ["Parameter", "Unit", "Result"],
             "specs" => [
                 [

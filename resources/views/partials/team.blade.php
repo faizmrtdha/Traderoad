@@ -6,8 +6,8 @@
                 <img src="img/123.jpg" class="rounded-circle" alt="" width="200px" height="200px" />
                 <h4 id="nama">Viqri Al Huda</h4>
                 <span id="jabatan">Chief Executing Officer</span>
-                <a href="">
-                    <i class="fab fa-linkedin fa-lg"></i>
+                <a href="" id="linked">
+                    <i class="fab fa-linkedin fa-lg" id="linkedin"></i>
                 </a>
             </div>
             <div class="col t-1">
@@ -15,8 +15,8 @@
                     class="rounded-circle" alt="" width="200px" height="200px" />
                 <h4 id="nama">Aprianda Idrus</h4>
                 <span id="jabatan">Chief Operating Officer</span>
-                <a href="">
-                    <i class="fab fa-linkedin fa-lg"></i>
+                <a href="" id="linked">
+                    <i class="fab fa-linkedin fa-lg" id="linkedin"></i>
                 </a>
             </div>
             <div class="col t-1">
@@ -24,8 +24,8 @@
                     class="rounded-circle" alt="" width="200px" height="200px" />
                 <h4 id="nama">Pandhita Hamzah</h4>
                 <span id="jabatan">Chief Technology Officer</span>
-                <a href="">
-                    <i class="fab fa-linkedin fa-lg"></i>
+                <a href="" id="linked">
+                    <i class="fab fa-linkedin fa-lg" id="linkedin"></i>
                 </a>
             </div>
         </div>
