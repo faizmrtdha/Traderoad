@@ -28,13 +28,23 @@
             @enderror
         </div>
         <label class="form-label" for="thumbnail">Thumbnail</label>
-        <img class="image-preview-thumbnail img-fluid col-sm-5 mb-3">
+        @if ($product['thumbnail'])
+            <img src="{{ asset('storage/' . $product['thumbnail']) }}" class="image-preview-thumbnail img-fluid col-sm-5 mb-3">
+        @else
+            <img class="image-preview-thumbnail img-fluid col-sm-5 mb-3">
+        @endif
         <div class="input-group mb-3">
             <input type="file" name="thumbnail" class="form-control" multiple  id="thumbnail" onchange="previewImageT()">
             <label class="input-group-text" for="thumbnail">Upload</label>
         </div>
         <label class="form-label" for="img-product">Product Image</label>
-        <img class="image-preview-product img-fluid col-sm-5 mb-3">
+        @if ($product['img-product'])
+            @foreach (json_decode($product['img-product'])  as $imgProduct)
+                <img src="{{ asset('storage/' . $imgProduct) }}" class="image-preview-product img-fluid col-sm-5 mb-3">
+            @endforeach
+        @else
+            <img class="image-preview-product img-fluid col-sm-5 mb-3">
+        @endif
         <div class="input-group mb-3">
             <input type="file" name="img-product[]" class="form-control" multiple  id="img-product" onchange="previewImageP()">
             <label class="input-group-text" for="img-product">Upload</label>

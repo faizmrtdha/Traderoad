@@ -122,22 +122,29 @@ class DashboardProductController extends Controller
     public function update(Request $request, Product $product)
     {
         //
-        $validatedData = $request->validate([
+        $rules = [
             'title' => 'required|max:255',
-            'slug' => 'required|unique:products',
             'desc' => 'required',
             'thumbnail' => '',
             'img-product' => ''
-        ]);
-        $validatedData['thumbnail'] = $request->file('thumbnail')->store('product-img/b');
+        ];
 
-        $validatedData['img-product'] = array();
-        if ($files = $request->file('img-product')) {
-            foreach ($files as $file){
-                $validatedData['img-product'][] = $file->store('product-img/c');
-            }
-            $validatedData['img-product'] = json_encode($validatedData['img-product']);
+        if($request->slug != $product->slug)
+        {
+            $rules['slug'] = 'required|unique:products';
         }
+
+        $validatedData = $request->validate($rules);
+
+        // $validatedData['thumbnail'] = $request->file('thumbnail')->store('product-img/b');
+
+        // $validatedData['img-product'] = array();
+        // if ($files = $request->file('img-product')) {
+        //     foreach ($files as $file){
+        //         $validatedData['img-product'][] = $file->store('product-img/c');
+        //     }
+        //     $validatedData['img-product'] = json_encode($validatedData['img-product']);
+        // }
         
 
         Product::where('id', $product->id)
