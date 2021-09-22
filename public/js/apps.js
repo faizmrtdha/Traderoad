@@ -62,41 +62,5 @@ $(document).ready(function () {
         }
     });
 });
-// $(".owl-carousel").owlCarousel({
-//     loop: true,
-//     center: true,
-//     items: 3,
-//     margin: 30,
-//     padding: 5,
-//     // stagePadding:5,
-//     nav: true,
-//     animateOut: "fadeOut",
-//     animateIn: "fadeIn",
-//     lazyLoad: true,
-//     responsiveClass: true,
-//     responsive: {
-//         0: {
-//             items: 1,
-//             nav: false,
-//         },
-//         600: {
-//             items: 1,
-//             nav: false,
-//         },
-//         1000: {
-//             items: 1,
-//             nav: true,
-//         },
-//         1200: {
-//             items: 3,
-//             nav: true,
-//         },
-//     },
-// });
-// $(".main-carousel").flickity({
-//     // options
-//     cellAlign: "center",
-//     contain: true,
-//     lazyLoad: true,
-//     groupCells: 1,
-// });
+
+$(window).scroll(function () {});

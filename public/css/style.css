@@ -259,6 +259,7 @@ p#tentang {
     display: flex;
     align-items: flex-start;
     padding-top: 60px;
+    margin-top: 30px;
     justify-content: space-between;
     color: black;
 }
@@ -499,7 +500,7 @@ body>div.about>div>div>div.col.img-about>img {
 .team {
     padding-top: 60px;
     padding-bottom: 30px;
-    ;
+    margin-top: 60px;
     color: black;
 }
 
