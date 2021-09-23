@@ -26,7 +26,7 @@ var swiper = new Swiper(".swiper", {
             slidesPerGroup: 1,
             spaceBetween: 40,
         },
-        768: {
+        767: {
             slidesPerView: 2,
             slidesPerGroup: 1,
             spaceBetween: 10,
