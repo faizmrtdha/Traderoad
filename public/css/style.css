@@ -190,12 +190,11 @@ a#swiper:hover {
     color: white;
 }
 
-
-img.slide-image {
-    transition: transform ease-in-out(0.3s);
+.swiper-slide#swiper {
+    transition: transform ease-in-out 0.3s;
 }
 
-img.slide-image:hover {
+.swiper-slide#swiper:hover {
     transform: scale(1.1);
 }
 
