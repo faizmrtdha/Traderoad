@@ -19,7 +19,7 @@
                 <img src="img/wh2.jpg" alt="" class="wh">
             </div>
             <div class="col t-1">
-                <img src="img/wh3.jpg" alt="" class="wh img-fluid">
+                <img src="img/wh3.jpg" alt="" class="wh">
             </div>
         </div>
     </div>
