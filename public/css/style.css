@@ -254,10 +254,6 @@ p#tentang {
     margin-top: 20px;
 }
 
-#about {
-    height: 100vh;
-}
-
 .about {
     display: flex;
     align-items: flex-start;
@@ -1009,7 +1005,6 @@ h2.title-product {
     padding-top: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    height: 100vh;
 }
 
 .warehouse>h2 {
@@ -1050,4 +1045,22 @@ img.wh:hover {
 
 .warehouse>.container>h2 {
     text-align: center;
+}
+
+@media (min-width:1200px) {
+    #about {
+        height: 100vh;
+    }
+
+    #feature {
+        height: 100vh;
+    }
+
+    .slider#product {
+        height: 100vh;
+    }
+
+    .warehouse {
+        height: 100vh;
+    }
 }
