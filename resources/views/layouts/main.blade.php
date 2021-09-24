@@ -49,7 +49,7 @@
     </div>
     <footer>
         <div class="container">
-            <span>© 2021 Cocha. All rights reserved</span>
+            <span id="copyright">© 2021 Cocha. All rights reserved</span>
         </div>
     </footer>
 
