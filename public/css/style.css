@@ -297,7 +297,8 @@ body>div.about {
 }
 
 .img-about {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     height: 100%;
 }
 
@@ -1062,5 +1063,20 @@ img.wh:hover {
 
     .warehouse {
         height: 100vh;
+    }
+}
+
+@media (max-width:600px) {
+    .img-child-1 {
+        left: 10%;
+    }
+
+    p#tentang {
+        text-align: justify;
+    }
+
+    .img-child-2 {
+        left: 10%;
+        top: 55%;
     }
 }
