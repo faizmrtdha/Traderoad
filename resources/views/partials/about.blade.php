@@ -1,14 +1,15 @@
 <div class="about container">
-    <section>
+    <div class="desc-about">
         <h2>About Us</h2>
+        <span id="tentang">Standing as an international trading company by carrying out many import-export activities,
+            we are fully
+            committed to always prioritizing the best quality service.</span>
         <p id="tentang">
-            Berdiri sebagai perusahaan international trading dengan melakukan
-            banyak kegiatan ekspor impor,kemudian kami melakukan inovasi
-            bekerjasama dengan perkebunan kelapa di seluruh wilayah Indonesia
-            dan mengolah produk turunan kelapa yang bernilai untuk memenuhi
-            kebutuhan individu dan bisnis.
+            Through an extensive network of cooperation, we then develop and collaborate with all commodities throughout
+            Indonesia in order to meet individual and business needs.
         </p>
-    </section>
+    </div>
+
     <div class="img-about">
         <div class="img-parent">
             {{-- <img src="img/product/about-us-2.jpg" alt="asdw" class="img-fluid img-child img-child-1" id="about-2" /> --}}

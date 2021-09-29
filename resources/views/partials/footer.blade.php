@@ -1,7 +1,7 @@
 <div class="container">
     <section class="d-grid justify-content-center">
-        <h3><a href="#copyright">Questions?</a></h3>
-        <span>Let’s Get In Touch</span>
+        <h3>Questions?</h3>
+        <span class="text-center">Let’s Get In Touch</span>
     </section>
     <div class="row">
         <div class="col">

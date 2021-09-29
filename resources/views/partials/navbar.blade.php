@@ -10,15 +10,15 @@
             <i class="fas fa-bars" style="color: whitesmoke"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto onepage-pagination">
                 <li class="nav-item">
-                    <a class="nav-link tujuan" href="#about">About</a>
+                    <a class="nav-link tujuan" href="#about-us" data-index="about-us">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link tujuan" href="#product">Product</a>
+                    <a class="nav-link tujuan" href="#our-product" data-index="product">Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link tujuan" href="#contact">Contact</a>
+                    <a class="nav-link tujuan" href="#our-contact" data-index="contact">Contact</a>
                 </li>
             </ul>
         </div>

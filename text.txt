@@ -11,9 +11,13 @@
     @endforeach
 </div>
 
+selain oil 100mt/m
 
 Brief
-+Warehouse dibawah Our Product
++supply ability
++packaging & delivery
+product spec
+supply capability
 
 Product(Px)
 336x480
@@ -33,3 +37,6 @@ Question bisa dipencet
 Our teams sampe lets get in touch
 our product 100vh
 about us 100vh
+
+garis putus2 diantara our product
+tambah patern di about us
