@@ -13,10 +13,7 @@ class product
             "judul" => "Coconut Shell Charcoal",
             "slug" => "Coconut-Shell-Charcoal",
             "thumbnail" => "charcoal.jpg",
-            "desc" => "Arang berbahan dasar tempurung kelapa yang dibakar, arang ini menggunakan kelapa yang sudah tua dan
-            mempunyai tekstur lebih padat, kandungan air sedikit, serta mempunyai nilai jual yang tinggi maka arang
-            batok
-            kelapa ini sangat dicari dan dibutuhkan sbg bahan dasar dalam industri arang briket.",
+            "desc" => "Coconut shell charcoal is made from coconut husk. It is a vapor-activated material, so it does not contain chemical agents that can contaminate or react with the medium where it is use. These charcoal are made from burned coconut shell/husk , our product use selected old coconut shell that has specific texture and lower water quantity. Our coconut shell is a perfect material to make briquettes.",
             "img" => ["charcoal.jpg", "2.jpg", "3.jpg", "4.jpg"],
             "header" => ["Parameter", "Unit", "Result", "Method"],
             "specs" => [
@@ -92,9 +89,7 @@ class product
             "judul" => "Coconut Fiber",
             "slug" => "Coconut-Fiber",
             "thumbnail" => "cf3.jpg",
-            "desc" => "Sabut kelapa adalah serat alami yang di ekstrasksi dari cangkang kelapa bagian dalam dan bagian luar lapisan
-            kelapa,biasa digunakan sbg bahan dalam pembuatan produk kerajinan seperti keset
-            lantai,kasur,sikat,karung,dan tali.",
+            "desc" => "Coconut fiber, is a natural fiber extracted from the husk of coconut and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net.",
             "img" => ["cf1.jpg", "cf2.jpg", "cf3.jpg"],
             "header" => ["Parameter", "Unit", "Result",],
             "specs" => [
@@ -153,11 +148,7 @@ class product
             "judul" => "Coconut Shell Charcoal Briquettes",
             "slug" => "Coconut-Shell-Charcoal-Briquettes",
             "thumbnail" => "briquette.jpg",
-            "desc" => "Arang berbentuk compact yang terbuat dari batok kelapa granular yang dihaluskan dan dicetak menggunakan
-            bahan
-            pengikat alami yang dapat bertahan lebih lama dari arang biasa ketika dibakar.Sering digunakan untuk
-            keperluan
-            rumah tangga,industri makanan,industri metalurgi dan barbeque.",
+            "desc" => "Coconut shell charcoal briquettes from Indonesia are known to be of excellent quality, making them constantly in demand by the international market. These product available in compact form made from granular coconut shell that has been softened and printed using organic material. Comparing to other conventional fuels, this products generate higher level of heat and are environmentally friendly. Therefore, this charcoal briquettes are used for cooking and grilling purposes. They can also be used to burn shisha tobacco",
             "img" => ["briquette.jpg", "2.jpg", "3.jpg", "4.jpg"],
             "header" => ["Parameter", "Unit", "Result,Method"],
             "specs" => [
@@ -227,10 +218,7 @@ class product
             "judul" => "Cocopeat",
             "slug" => "Cocopeat",
             "thumbnail" => "cp1.jpg",
-            "desc" => "sabut dikenal karena hormon rooting alami dan sifat anti jamurnya yang sangat efektif untuk berbagai
-            kebutuhan
-            penanaman.cocopeat yang kami peroleh melalui proses r&d yang sangat ketat sejak proses penyaringan,
-            pencucian,hingga pengeringan.kami juga menyediakan pengemasan berbentuk block sbg media tanam yang ideal.",
+            "desc" => "Cocopeat are considered an ideal growing medium. The cocopeat powder thus obtained is sieved, washed, dried and finally compressed into blocks. The blocks can be used for a wide range of planting requirements. Coir is known for its natural rooting hormones and anti-fungal properties. We also ensure secure packaging of the cocopeat blocks.",
             "img" => ["cp1.jpg", "cp2.jpg", "cp3.jpg"],
             "header" => ["Parameter", "Unit", "Result"],
             "specs" => [
@@ -284,9 +272,7 @@ class product
             "judul" => "Crude Coconut Oil",
             "slug" => "Crude-Coconut-Oil",
             "thumbnail" => "cco1.jpg",
-            "desc" => "produk minyak nabati yang diekstraksi tanpa melalui proses filtrasi dari inti kelapa dengan kandungan lemak
-            jenuh yang tinggi dan lambat teroksidasi dengan demikian minyak ini tahan terhadap tengik dan bebas dari
-            pencampuran minyak atau benda asing lainnya.",
+            "desc" => "Crude Coconut Oil is an amazing oil with numerous uses. Our Crude Coconut Oil is produced using the coconut, which is one of numerous sorts of “oilseeds.” Crude Coconut Oil, also referred to as “CNO,” has been utilized in many industries, including; beauty, food, healthcare, nutraceuticals, soap, as well as a replacement for petroleum oil such as industrial grade oils and more recently, as a feedstock in the production of Biodiesel.",
             "img" => ["cco1.jpg", "cco.jpg", "3.jpg", "4.jpg"],
             "header" => ["Parameter", "Unit", "Result"],
             "specs" => [
@@ -340,10 +326,7 @@ class product
             "judul" => "Virgin Coconut Oil",
             "slug" => "Virgin-Coconut-Oil",
             "thumbnail" => "vco.jpg",
-            "desc" => "Minyak yang dibuat dari kelapa segar yang diolah melalui proses pemanasan tanpa bahan kimia untuk diambil
-            minyaknya,memiliki kandungan esensial asam laurat membuat vco ini memiliki sifat antibiotik,anti bakterim
-            dan jamur yang sangat baik untuk kesehatan.penggunaan optimal minyak ini dikembangkan menjadi produk
-            pangan,farmasi,maupun kosmetik.",
+            "desc" => "Our products are 100% raw organic cold pressed unrefined virgin coconut oil (VCO) with the application of heat. Our VCO is made from high quality coconut fresh meat which is processed to a high standard to create premium virgin coconut oil. Contains many nutrients medicinal grade and anti-virus that are beneficial for health VCO product specification.",
             "img" => ["vco.jpg", "2.jpg", "3.jpg", "4.jpg"],
             "header" => ["Parameter", "Unit", "Result"],
             "specs" => [

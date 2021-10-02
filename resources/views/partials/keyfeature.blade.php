@@ -1,43 +1,52 @@
 <div class="container">
-      <div class="jstyleflex">
+    <div class="jstyleflex">
         <h2 class="text-center">Key In Feature</h2>
-      </div>
-      <div class="styleflex">
-        <div class="upleft">
-          <span>
-            <i class="fas fa-hands-helping fa-4x fa-rotate-30"></i>
-          </span>
-          <h3>Commitment</h3>
-          <p>
-            Commitment means giving high dedication and responsibility in each of our business and maintaining trust at all times to the company's clients and partners.
-          </p>
-        </div>
-        <div class="upleft">
-          <span>
-            <i class="fas fa-user-shield fa-4x"></i>
-          </span>
-          <h3>Integrity</h3>
-          <p>
-            Integrity means having values of truth, honesty, responsibility, and being objective, and being a value that cannot be compromised.
-          </p>
-        </div>
-        <div class="upleft">
-          <span>
-            <i class="fas fa-medal fa-4x fa-rotate-180"></i>
-          </span>
-          <h3>Quality</h3>
-          <p>
-            Quality means maintaining quality can be shown in various ways such as, material selection, manufacturing process, labor, to become a product that can meet expectations.
-          </p>
-        </div>
-        <div class="upleft">
-          <span>
-            <i class="far fa-lightbulb fa-4x"></i>
-          </span>
-          <h3>Inovation</h3>
-          <p>
-            Innovation means designing, creating, developing products and services that can be tailored to customer preferences and have high selling points.
-          </p>
-        </div>
-      </div>
     </div>
+    <div class="styleflex">
+        <div class="upleft">
+            <span>
+                <i class="fas fa-hands-helping fa-4x fa-rotate-30"></i>
+            </span>
+            <h3>Commitment</h3>
+            <p>
+                We are committed continuing to provide a lot of commodities , raw material , and finished product to
+                worldwide market. Together for economic growth, the environment and the surrounding community, we
+                encourage
+                all the stakeholders to collaborate with us toward a sustainable future.
+            </p>
+        </div>
+        <div class="upleft">
+            <span>
+                <i class="fas fa-user-shield fa-4x"></i>
+            </span>
+            <h3>Integrity</h3>
+            <p>
+                Our company is committed to protecting employees, partners, vendors, and the company from illegal or
+                damaging actions by individuals, either knowingly or unknowingly. Our Company addresses issues
+                proactively and uses correct judgment, it helps set us apart from competitors.
+            </p>
+        </div>
+        <div class="upleft">
+            <span>
+                <i class="fas fa-medal fa-4x fa-rotate-180"></i>
+            </span>
+            <h3>Quality</h3>
+            <p>
+                We focus on quality, both for the services that we offer to our customers and for the development of our
+                products. We seek excellence. We design products that provide a solution for your needs, from the
+                conception and design to the delivery of the product and its behaviour in the application for which it
+                has been designed.
+            </p>
+        </div>
+        <div class="upleft">
+            <span>
+                <i class="far fa-lightbulb fa-4x"></i>
+            </span>
+            <h3>Inovation</h3>
+            <p>
+                We are motivated by the continuous improvements, so we are innovating day by day in order to offer
+                solutions to our customers, providing our experience, creating value in long-term relationships.
+            </p>
+        </div>
+    </div>
+</div>
