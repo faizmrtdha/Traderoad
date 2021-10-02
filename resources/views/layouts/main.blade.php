@@ -13,7 +13,6 @@
     <!-- font awesome -->
     <link href="css/all.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/jquery.fullpage.css">
-    {{-- <link rel="stylesheet" href="css/onepage-scroll.css"> --}}
 
 
     <title>Cocha | {{ $title }}</title>
