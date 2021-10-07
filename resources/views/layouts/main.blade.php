@@ -2,15 +2,11 @@
 <html lang="en" id="home">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/css/style.css" rel="stylesheet" />
-    <!-- Swiper JS -->
     <link rel="stylesheet" href="css/swiper.css">
-    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <!-- font awesome -->
     <link href="css/all.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/jquery.fullpage.css">
 
@@ -19,10 +15,10 @@
 </head>
 
 <body>
+    <div class="navigasi">
+        @include('partials.navbar')
+    </div>
     <div class="main" id="fullpage">
-        <div class="navigasi" id="menu">
-            @include('partials.navbar')
-        </div>
         <div class="jumbotron section" data-anchor="banner">
             @include('partials.jumbotron')
         </div>

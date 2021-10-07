@@ -6,19 +6,20 @@
             <span class="mb-0">Cocha</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+            data-target="#navbarNavDropdown">
             <i class="fas fa-bars" style="color: whitesmoke"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto onepage-pagination">
-                <li class="nav-item">
-                    <a class="nav-link tujuan" href="#about-us" data-index="about-us">About</a>
+            <ul class="navbar-nav ms-auto" id="menu">
+                <li {{-- class="nav-item" --}} data-menuanchor="about-us" class="active">
+                    <a class="nav-link tujuan" href="#about-us">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link tujuan" href="#our-product" data-index="product">Product</a>
+                <li {{-- class="nav-item" --}} data-menuanchor="our-product">
+                    <a class="nav-link tujuan" href="#our-product">Product</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link tujuan" href="#our-contact" data-index="contact">Contact</a>
+                <li {{-- class="nav-item" --}} data-menuanchor="our-contact">
+                    <a class="nav-link tujuan" href="#our-contact">Contact</a>
                 </li>
             </ul>
         </div>

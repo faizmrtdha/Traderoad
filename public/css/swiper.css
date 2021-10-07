@@ -145,11 +145,13 @@
 }
 
 .swiper-horizontal.swiper-css-mode>.swiper-wrapper {
-    scroll-snap-type: x mandatory
+    scroll-snap-type: x mandatory;
+    -ms-scroll-snap-type: x mandatory;
 }
 
 .swiper-vertical.swiper-css-mode>.swiper-wrapper {
-    scroll-snap-type: y mandatory
+    scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
 }
 
 .swiper-centered>.swiper-wrapper::before {
@@ -444,6 +446,7 @@ button.swiper-pagination-bullet {
     border-radius: 10px;
     position: relative;
     -ms-touch-action: none;
+    touch-action: none;
     background: rgba(0, 0, 0, .1)
 }
 
