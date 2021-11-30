@@ -1,758 +1,757 @@
 /* FONT */
 @font-face {
-    font-family: "axiformablack_italic";
-    src: url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformablack_italic";
+  src: url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_black_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformablack";
-    src: url("../fonts/kastelov_-_axiforma_black-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_black-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformablack";
+  src: url("../fonts/kastelov_-_axiforma_black-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformabold_italic";
-    src: url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformabold_italic";
+  src: url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_bold_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformabold";
-    src: url("../fonts/kastelov_-_axiforma_bold-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformabold";
+  src: url("../fonts/kastelov_-_axiforma_bold-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformabook_italic";
-    src: url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformabook_italic";
+  src: url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_book_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformabook";
-    src: url("../fonts/kastelov_-_axiforma_book-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_book-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformabook";
+  src: url("../fonts/kastelov_-_axiforma_book-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaextrabold_italic";
-    src: url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaextrabold_italic";
+  src: url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_extrabold_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaextrabold";
-    src: url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaextrabold";
+  src: url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaheavy_italic";
-    src: url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaheavy_italic";
+  src: url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_heavy_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaheavy";
-    src: url("../fonts/kastelov_-_axiforma_heavy-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_heavy-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaheavy";
+  src: url("../fonts/kastelov_-_axiforma_heavy-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_heavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaitalic";
-    src: url("../fonts/kastelov_-_axiforma_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaitalic";
+  src: url("../fonts/kastelov_-_axiforma_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformalight_italic";
-    src: url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformalight_italic";
+  src: url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_light_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformalight";
-    src: url("../fonts/kastelov_-_axiforma_light-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_light-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformalight";
+  src: url("../fonts/kastelov_-_axiforma_light-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformamedium_italic";
-    src: url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformamedium_italic";
+  src: url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_medium_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformamedium";
-    src: url("../fonts/kastelov_-_axiforma_medium-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_medium-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformamedium";
+  src: url("../fonts/kastelov_-_axiforma_medium-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformaregular";
-    src: url("../fonts/kastelov_-_axiforma_regular-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformaregular";
+  src: url("../fonts/kastelov_-_axiforma_regular-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformasemibold_italic";
-    src: url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformasemibold_italic";
+  src: url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_semibold_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformasemibold";
-    src: url("../fonts/kastelov_-_axiforma_semibold-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_semibold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformasemibold";
+  src: url("../fonts/kastelov_-_axiforma_semibold-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformathin_italic";
-    src: url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformathin_italic";
+  src: url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_thin_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "axiformathin";
-    src: url("../fonts/kastelov_-_axiforma_thin-webfont.woff2") format("woff2"),
-        url("../fonts/kastelov_-_axiforma_thin-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "axiformathin";
+  src: url("../fonts/kastelov_-_axiforma_thin-webfont.woff2") format("woff2"),
+    url("../fonts/kastelov_-_axiforma_thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* END FONT */
 html {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    background-color: #f5f5f5;
+  width: 5px;
+  background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    background-color: #555;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
 }
 
 #a-logo,
 .nav-item>a:hover {
-    color: white;
+  color: white;
 }
 
 a#swiper:hover {
-    color: white;
+  color: white;
 }
 
 .swiper-slide#swiper {
-    transition: transform ease-in-out 0.3s;
+  transition: transform ease-in-out 0.3s;
 }
 
 .swiper-slide#swiper:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 body {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .navbar-brand.p-0 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .navbar-brand.p-0>span {
-    padding-left: 4px;
-    font-family: axiformasemibold;
+  padding-left: 4px;
+  font-family: axiformasemibold;
 }
 
 .navbar {
-    background-color: rgba(55, 55, 55, 0.85);
+  background-color: rgba(55, 55, 55, 0.85);
 }
 
 .navbar .navbar-nav>li>a:focus {
-    color: #9d9d9d;
+  color: #9d9d9d;
 }
 
 span#tentang {
-    font-size: 26px;
-    margin-top: 7px;
-    display: inline-block;
-    text-align: justify;
-    line-height: 29px;
-    font-family: axiforma;
-    color: #000;
+  font-size: 26px;
+  margin-top: 7px;
+  display: inline-block;
+  text-align: justify;
+  line-height: 29px;
+  font-family: axiforma;
+  color: #000;
 }
 
 p#tentang {
-    font-size: 19px;
-    line-height: 28px;
-    margin-top: 28px;
-    text-align: justify;
-    font-family: axiforma;
+  font-size: 19px;
+  line-height: 28px;
+  margin-top: 28px;
+  text-align: justify;
+  font-family: axiforma;
 }
 
 .jumbotron {
-    height: 100vh;
+  height: 100vh;
 }
 
 .gambar {
-    display: inline-block;
-    background-image: url("../img/123.jpg") !important;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  display: inline-block;
+  background-image: url("../img/123.jpg") !important;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .gambar .container>button {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .about {
-    display: flex;
-    align-items: flex-start;
-    padding-top: 60px;
-    margin-top: 30px;
-    justify-content: space-between;
-    color: black;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 60px;
+  margin-top: 30px;
+  justify-content: space-between;
+  color: black;
 }
 
 /* new */
 @media screen and (max-width: 1199px) {
-    .about {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .vr {
-    opacity: 1 !important;
-    width: 3px !important;
-    margin: 0px 5px 0px 5px !important;
+  opacity: 1 !important;
+  width: 3px !important;
+  margin: 0px 5px 0px 5px !important;
 }
 
 /* end new */
 
 .about .desc-about {
-    width: 100%;
-    max-width: 450px;
+  width: 100%;
+  max-width: 450px;
 }
 
 body>div.about>div>div>div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 body>div.about {
-    padding-top: 20px;
-    padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .img-about {
-    max-width: 600px;
-    width: 100%;
-    height: 100%;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
 }
 
 .img-parent {
-    max-width: 310px;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
+  max-width: 310px;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
 }
 
 .img-child {
-    position: absolute;
-    border-radius: 30px;
+  position: relative;
+  border-radius: 30px;
 }
 
 .img-child-1 {
-    left: 0;
-    z-index: 2;
+  left: 0;
+  z-index: 2;
 }
 
 .img-child-2 {
-    left: 280px;
-    top: 160px;
-    z-index: 3;
+  left: 270px;
+  top: -50px;
+  z-index: 3;
 }
 
 .img-child-3 {
-    left: 50px;
-    z-index: 4;
+  left: 50px;
+  z-index: 4;
 }
 
 .navbar-brand {
-    color: white;
+  color: white;
 }
 
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 .jumbotron .gambar .container {
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 0 100px;
-    color: white;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0 100px;
+  color: white;
 }
 
 .col>h3 {
-    text-align: center;
+  text-align: center;
 }
 
 body>div.about>div>div>div.col.img-about>img {
-    width: 100%;
+  width: 100%;
 }
 
 .slider {
-    padding-top: 60px;
-    padding-bottom: 50px;
-    ;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  ;
 }
 
 .swiper#swiper {
-    height: 430px;
-    width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
+  height: 430px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .swiper-pagination>.swiper-pagination-bullet {
-    opacity: 1;
-    border: white solid 1px;
-    background-color: black;
+  opacity: 1;
+  border: white solid 1px;
+  background-color: black;
 }
 
 .swiper-pagination>.swiper-pagination-bullet-active {
-    background-color: black;
+  background-color: black;
 }
 
 .swiper .tombol {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .swiper .tombol>button {
-    padding: 10px 20px;
-    background-color: transparent;
-    border-radius: 6px;
-    border: 1px solid #c4c4c4;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .swiper .tombol>a {
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 6px;
-    border: 1px solid #c4c4c4;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .swiper .tombol>a>span {
-    color: black;
+  color: black;
 }
 
 .swiper .tombol>a>i {
-    margin-left: 5px;
-    color: green;
+  margin-left: 5px;
+  color: green;
 }
 
 /* Our Product */
 
 .col-md-6#gp {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tombol {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    /* background: #fff; */
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .swiper-slide#swiper>img {
-    display: block;
-    width: 100%;
-    height: 380px;
-    object-fit: cover;
-    object-position: center;
+  display: block;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .col>h2.Judul {
-    font-size: 32px;
-    margin-bottom: 45px;
-    line-height: 48px;
-    font-weight: 700;
-    font-family: axiformabold;
+  font-size: 32px;
+  margin-bottom: 45px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: axiformabold;
 }
 
 .col>h3.nama {
-    text-align: left;
-    font-family: axiformathin;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 700;
+  text-align: left;
+  font-family: axiformathin;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
 }
 
 .col>p.kalimat {
-    margin-top: 16px;
-    text-align: justify;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+  margin-top: 16px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .team .container>h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* section Team */
 
 .team {
-    color: black;
+  color: black;
 }
 
 #jabatan {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #nama {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .foto-team {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .t-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .img-responsive {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* end Section Team */
 
 /* footer */
 .footer {
-    color: #fff;
-    padding-top: 60px;
-    background-color: #383838;
-    ;
+  color: #fff;
+  padding-top: 60px;
+  background-color: #282828;
 }
 
 #contact>.container>section>span {
-    text-align: center;
+  text-align: center;
 }
 
 #contact>.container>section>h3>a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 body>div.footer>div>div>div:nth-child(1) {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 body>div.footer>div>section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body>div.footer>div>div>div:nth-child(1)>h4 {
-    margin-top: 20px;
-    margin-bottom: 18px;
+  margin-top: 20px;
+  margin-bottom: 18px;
 }
 
 .col>.social-media {
-    margin-top: 20px;
-    margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 footer {
-    color: #fff;
-    background-color: #282828;
-    padding: 10px 100px;
+  color: #fff;
+  background-color: #282828;
+  padding: 10px 0;
 }
 
 .social-media {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .social-media>a {
-    text-decoration: none;
-    font-size: 24px;
-    color: white;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
 }
 
 a#linkedin:hover,
 a#linked:hover {
-    color: #0077b5 !important;
+  color: #0077b5 !important;
 }
 
 a#linked {
-    color: black;
+  color: black;
 }
 
 a#wa:hover {
-    color: #25d366 !important;
+  color: #25d366 !important;
 }
 
 /* endfooter */
 
 .scrolling-active {
-    background-color: #fff;
-    box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
 }
 
 .scrolling-active .nav {
-    height: 6.6rem;
+  height: 6.6rem;
 }
 
 .scrolling-active .nav a {
-    color: #313131;
+  color: #313131;
 }
 
 .scrolling-active #nav-cta {
-    background-color: #313131;
-    color: #fff;
+  background-color: #313131;
+  color: #fff;
 }
 
 .scrolling-active #nav-cta:hover {
-    background-color: #151515;
+  background-color: #151515;
 }
 
 .scrolling-active .nav-link::after {
-    background-color: #313131;
+  background-color: #313131;
 }
 
 /*Apply styles after scroll end*/
 
 /* key feature */
 .jstyleflex {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 div.styleflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
-    color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: black;
 }
 
 .upleft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    width: 530px;
-    padding: 24px 24px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 530px;
+  padding: 24px 24px 24px 0px;
 }
 
 /* end Key Feature */
 
 /* swiper */
 .slide-kiri {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 600px;
-    padding: 0px 0px 25px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 600px;
+  padding: 0px 0px 25px 30px;
 }
 
 .wkwk {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .rounded {
-    border-radius: 3.25rem !important;
+  border-radius: 3.25rem !important;
 }
 
 .shadow {
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%) !important;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%) !important;
 }
 
 /* end Swiper */
 
 @media screen and (max-width: 767px) {
-    .navbar-brand {
-        margin-left: 7px;
-    }
+  .navbar-brand {
+    margin-left: 7px;
+  }
 
-    /*-- Change max-width from 768 to 767 --*/
+  /*-- Change max-width from 768 to 767 --*/
 
-    .nav-item {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .nav-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .navbar-header {
-        float: none;
-    }
+  .navbar-header {
+    float: none;
+  }
 
-    .navbar-toggle {
-        display: block;
-    }
+  .navbar-toggle {
+    display: block;
+  }
 
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
 
-    .about>section {
-        width: 100% !important;
-        margin-bottom: 20px;
-    }
+  .about>section {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
 
-    /*-- Disable this, suggest remove - this cause the menu disappear as soon as it toogle in --*/
-    .navbar-nav {
-        float: none !important;
-        margin: 7.5px -15px;
-        position: relative;
-        /*-- New attribute --*/
-        z-index: 9999;
-        /*-- New attribute --*/
-        /*-- New attribute --*/
-    }
+  /*-- Disable this, suggest remove - this cause the menu disappear as soon as it toogle in --*/
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+    position: relative;
+    /*-- New attribute --*/
+    z-index: 9999;
+    /*-- New attribute --*/
+    /*-- New attribute --*/
+  }
 
-    .navbar-nav>li {
-        float: none;
-    }
+  .navbar-nav>li {
+    float: none;
+  }
 
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-    .styleflex {
-        justify-content: center;
-    }
+  .styleflex {
+    justify-content: center;
+  }
 
-    img.wh {
-        padding-bottom: 30px;
-    }
+  img.wh {
+    padding-bottom: 30px;
+  }
 
-    .col {
-        padding-bottom: 30px;
-    }
+  .col {
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .about {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* padding: 100px; */
-    }
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 100px; */
+  }
 }
 
 @media only screen and (min-width:280px) and (max-width: 1199px) {
-    body>div.keyfeature>div>div.styleflex {
-        justify-content: center;
-    }
+  body>div.keyfeature>div>div.styleflex {
+    justify-content: center;
+  }
 
 }
 
 .upleft>span {
-    padding-bottom: 18px;
+  padding-bottom: 18px;
 }
 
 .upleft>p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* span>i.far {
@@ -764,339 +763,339 @@ span>i.fas {
 } */
 
 .upleft h3 {
-    padding-bottom: 7px;
+  padding-bottom: 7px;
 }
 
 .social-media>a#wa>span>i {
-    margin-left: 5px;
-    color: green;
+  margin-left: 5px;
+  color: green;
 }
 
 .swiper-slide>a {
-    position: absolute;
-    background: rgb(38, 38, 38);
-    background: rgba(38, 38, 38, 0.5);
-    top: 50%;
-    left: 50%;
-    padding: 0px 12px 2px 12px;
-    transform: translate(-50%, -50%);
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    display: none;
-    border-radius: 10px;
+  position: absolute;
+  background: rgb(38, 38, 38);
+  background: rgba(38, 38, 38, 0.5);
+  top: 50%;
+  left: 50%;
+  padding: 0px 12px 2px 12px;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  display: none;
+  border-radius: 10px;
 }
 
 .swiper-slide:hover>a {
-    display: inline-block;
+  display: inline-block;
 }
 
 h2.title-product {
-    padding-bottom: 10px;
-    margin: 0px;
-    color: black;
+  padding-bottom: 10px;
+  margin: 0px;
+  color: black;
 }
 
 .swiper-slide#product img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .swiper-slide#product {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .mySwiper2 {
-    height: 80%;
-    width: 100%;
+  height: 80%;
+  width: 100%;
 }
 
 .myS {
-    height: 20%;
-    box-sizing: border-box;
-    padding: 10px 0 !important;
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0 !important;
 }
 
 .myS .swiper-slide#product {
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
 }
 
 .myS .swiper-slide-thumb-active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .swiper-slide#product img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .details {
-    max-width: 600px !important;
+  max-width: 600px !important;
 }
 
 .thumbnail {
-    max-width: 500px !important;
-    height: 600px;
+  max-width: 500px !important;
+  height: 600px;
 }
 
 @media (min-width: 768px) {
-    #product>.isi {
-        flex-wrap: wrap;
-    }
+  #product>.isi {
+    flex-wrap: wrap;
+  }
 
-    .thumbnail {
-        margin-bottom: 20px;
-        max-width: 550px !important;
-    }
+  .thumbnail {
+    margin-bottom: 20px;
+    max-width: 550px !important;
+  }
 
-    .details {
-        max-width: 550px !important;
-    }
+  .details {
+    max-width: 550px !important;
+  }
 
-    .packaging {
-        max-width: 550px !important;
-    }
+  .packaging {
+    max-width: 550px !important;
+  }
 
-    .supply {
-        max-width: 550px !important;
-    }
+  .supply {
+    max-width: 550px !important;
+  }
 }
 
 @media (min-width: 992px) {
-    .thumbnail {
-        /* margin-right: 10px; */
-    }
+  .thumbnail {
+    /* margin-right: 10px; */
+  }
 }
 
 .owl-carousel .owl-stage-outer {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .owl-nav button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.38) !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
 }
 
 .owl-nav button:focus {
-    outline: none;
+  outline: none;
 }
 
 .card-img-top {
-    height: 40vh;
-    object-fit: cover;
+  height: 40vh;
+  object-fit: cover;
 }
 
 .owl-prev {
-    left: -40px;
+  left: -40px;
 }
 
 .owl-next {
-    right: -40px;
+  right: -40px;
 }
 
 .owl-prev .owl-next {
-    position: absolute;
-    top: 90px;
+  position: absolute;
+  top: 90px;
 }
 
 .owl-prev span,
 .owl-next span {
-    font-size: 80px;
-    color: black;
+  font-size: 80px;
+  color: black;
 }
 
 .card#slider {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .warehouse>h2 {
-    margin-bottom: 30px;
-    color: black;
+  margin-bottom: 30px;
+  color: black;
 }
 
 .foto-ware {
-    display: flex;
-    padding-top: 30px;
+  display: flex;
+  padding-top: 30px;
 }
 
 img.wh {
-    width: 100%;
-    max-height: 277px;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: transform ease-in-out 0.3s;
+  width: 100%;
+  max-height: 277px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform ease-in-out 0.3s;
 }
 
 img.wh:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .warehouse>.container>h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .rounded-wh {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 @media (min-width:1200px) {
-    #about {
-        height: 100vh;
-    }
+  #about {
+    height: 100vh;
+  }
 
-    #feature {
-        height: 100vh;
-    }
+  #feature {
+    height: 100vh;
+  }
 
-    .upleft {
-        padding-bottom: 0px;
-    }
+  .upleft {
+    padding-bottom: 0px;
+  }
 
-    .slider#product {
-        height: 100vh;
-    }
+  .slider#product {
+    height: 100vh;
+  }
 
-    .warehouse {
-        height: 100vh;
-    }
+  .warehouse {
+    height: 100vh;
+  }
 
-    .jstyleflex {
-        padding-top: 5vh;
-    }
+  .jstyleflex {
+    padding-top: 5vh;
+  }
 
-    .styleflex {
-        margin-top: 0px !important;
-    }
+  .styleflex {
+    margin-top: 0px !important;
+  }
 }
 
 @media (max-width:600px) {
-    .img-child-1 {
-        left: 10%;
-    }
+  .img-child-1 {
+    left: 10%;
+  }
 
-    p#tentang {
-        text-align: justify;
-    }
+  p#tentang {
+    text-align: justify;
+  }
 
-    .img-child-2 {
-        left: 10%;
-        top: 55%;
-    }
+  .img-child-2 {
+    left: 10%;
+    top: 55%;
+  }
 
-    #feature {
-        padding-top: 50px;
-    }
+  #feature {
+    padding-top: 50px;
+  }
 
-    .styleflex {
-        margin-top: 0px !important;
-    }
+  .styleflex {
+    margin-top: 0px !important;
+  }
 }
 
 #wh-name {
-    text-align: center;
+  text-align: center;
 }
 
 
 #btn-s {
-    color: white;
+  color: white;
 }
 
 
 .supply>p {
-    display: inline-block;
-    font-size: 18px;
-    font-family: axiforma;
+  display: inline-block;
+  font-size: 18px;
+  font-family: axiforma;
 }
 
 
 .details-pack {
-    display: flex;
+  display: flex;
 }
 
 td {
-    padding-left: 0px !important;
+  padding-left: 0px !important;
 }
 
 table {
-    table-layout: fixed;
+  table-layout: fixed;
 }
 
 .wh-photo {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
 }
 
 .wh-photoColumn {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  padding: 0;
 }
 
 .wh-photoColumn img {
-    display: block;
-    float: left;
-    flex: 0 0 auto;
-    padding: 10px 10px;
-    transition: transform ease-in-out 0.3s;
+  display: block;
+  float: left;
+  flex: 0 0 auto;
+  padding: 10px 10px;
+  transition: transform ease-in-out 0.3s;
 }
 
 .wh-photoColumn img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 1024px) {
-    .wh-photoColumn img {
-        width: calc(100%/3);
-        height: calc(100%/3);
-    }
+  .wh-photoColumn img {
+    width: calc(100%/3);
+    height: calc(100%/3);
+  }
 
-    div.warehouse {
-        padding-top: 25px;
-    }
+  div.warehouse {
+    padding-top: 25px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .wh-photoColumn img {
-        width: calc(100%/2);
-        height: calc(100%/2);
-    }
+  .wh-photoColumn img {
+    width: calc(100%/2);
+    height: calc(100%/2);
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .wh-photoColumn img {
-        width: calc(100%/2);
-        height: calc(100%/2);
-    }
+  .wh-photoColumn img {
+    width: calc(100%/2);
+    height: calc(100%/2);
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-    .wh-photoColumn img {
-        width: calc(100%/1);
-        height: calc(100%/1);
-    }
+  .wh-photoColumn img {
+    width: calc(100%/1);
+    height: calc(100%/1);
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .wh-photoColumn img {
-        width: 100%;
-        height: 100%;
-    }
+  .wh-photoColumn img {
+    width: 100%;
+    height: 100%;
+  }
 }
